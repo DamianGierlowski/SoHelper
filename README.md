@@ -43,7 +43,7 @@ Builds are unsigned, so Windows shows a SmartScreen warning the first time.
 ```sh
 make bump                    # 0.0.1 -> 0.0.2 in package.json
 git commit -am "Release 0.0.2"
-make release                 # build Windows, upload as a draft
+make release                 # build Windows, upload all assets as a draft
 gh release edit v0.0.2 --draft=false -R DamianGierlowski/SoHelper
 ```
 

@@ -3,6 +3,7 @@
 
 SHELL := /bin/bash
 BUILDER := ./node_modules/.bin/electron-builder
+REPO := DamianGierlowski/SoHelper
 
 .DEFAULT_GOAL := help
 .PHONY: help install dev start check typecheck test build mac win dist bump release clean distclean
@@ -47,11 +48,21 @@ bump: ## Podnosi wersje patch w package.json (0.0.1 -> 0.0.2)
 	npm version patch --no-git-tag-version
 
 release: check build ## Buduje i wysyla wydanie Windows na GitHub Releases
-	GH_TOKEN=$$(gh auth token) $(BUILDER) --win --publish always
+	@rm -rf release
+	$(BUILDER) --win --publish never
+	@version=$$(node -p "require('./package.json').version"); \
+	gh release create "v$$version" \
+		"release/soHelper-$$version.exe" \
+		"release/soHelper-$$version.exe.blockmap" \
+		release/latest.yml \
+		--repo $(REPO) \
+		--target "$$(git rev-parse HEAD)" \
+		--title "$$version" \
+		--generate-notes \
+		--draft
 	@echo
-	@echo "  Wydanie poszlo jako SZKIC. Dopoki go nie opublikujesz na GitHubie,"
-	@echo "  electron-updater go NIE widzi. Pamietaj tez o 'make bump' przed"
-	@echo "  kolejnym wydaniem - updater porownuje wersje z package.json."
+	@echo "  Wydanie poszlo jako SZKIC. Dopoki go nie opublikujesz, electron-updater"
+	@echo "  go NIE widzi:  gh release edit v<wersja> --draft=false -R $(REPO)"
 
 clean: ## Usuwa out/ i release/
 	rm -rf out release
