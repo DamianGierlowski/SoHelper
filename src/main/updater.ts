@@ -1,16 +1,15 @@
-import { app, BrowserWindow, shell } from 'electron';
+import { app, BrowserWindow } from 'electron';
 import { autoUpdater } from 'electron-updater';
 import type { UpdateEvent, UpdateStatus } from '../shared/types.mts';
 
 const CHECK_INTERVAL_MS = 6 * 60 * 60 * 1000;
-const RELEASES_URL = 'https://github.com/DamianGierlowski/SoHelper/releases/latest';
 
 /**
- * Squirrel.Mac weryfikuje podpis aplikacji przy instalacji aktualizacji, wiec
- * na niepodpisanym macOS-ie nie ma czego automatyzowac - tam tylko informujemy
- * o nowej wersji i otwieramy strone wydan. Windows aktualizuje sie bez podpisu.
+ * Wydania powstaja wylacznie dla Windows. Na macOS nie ma latest-mac.yml,
+ * wiec nie ma czego sprawdzac - i osobno: Squirrel.Mac i tak wymagalby
+ * podpisanej aplikacji, ktorej nie mamy.
  */
-const canAutoInstall = process.platform === 'win32';
+const UPDATES_SUPPORTED = process.platform === 'win32';
 
 function broadcast(event: UpdateEvent): void {
   for (const win of BrowserWindow.getAllWindows()) {
@@ -21,14 +20,14 @@ function broadcast(event: UpdateEvent): void {
 export function setupUpdater(): void {
   // W dev nie ma zainstalowanej aplikacji do podmiany; electron-updater
   // rzucilby "App is not packaged".
-  if (!app.isPackaged) return;
+  if (!UPDATES_SUPPORTED || !app.isPackaged) return;
 
   // Pobieranie tylko na wyrazna zgode uzytkownika - nie zjadamy komus transferu.
   autoUpdater.autoDownload = false;
-  autoUpdater.autoInstallOnAppQuit = canAutoInstall;
+  autoUpdater.autoInstallOnAppQuit = true;
 
   autoUpdater.on('update-available', (info) => {
-    broadcast({ type: 'available', version: info.version, canAutoInstall });
+    broadcast({ type: 'available', version: info.version });
   });
   autoUpdater.on('download-progress', (progress) => {
     broadcast({ type: 'progress', percent: Math.round(progress.percent) });
@@ -51,22 +50,17 @@ async function checkQuietly(): Promise<void> {
 
 /** Sprawdzenie na zadanie uzytkownika - tu odpowiedz jest potrzebna zawsze. */
 export async function checkForUpdates(): Promise<UpdateStatus> {
-  if (!app.isPackaged) {
-    return { state: 'dev', current: app.getVersion() };
-  }
+  const current = app.getVersion();
+  if (!UPDATES_SUPPORTED) return { state: 'unsupported', current };
+  if (!app.isPackaged) return { state: 'dev', current };
+
   try {
     const result = await autoUpdater.checkForUpdates();
     const version = result?.updateInfo.version ?? null;
-    if (!version || version === app.getVersion()) {
-      return { state: 'current', current: app.getVersion() };
-    }
-    return { state: 'available', current: app.getVersion(), version, canAutoInstall };
+    if (!version || version === current) return { state: 'current', current };
+    return { state: 'available', current, version };
   } catch (err) {
-    return {
-      state: 'error',
-      current: app.getVersion(),
-      message: err instanceof Error ? err.message : String(err),
-    };
+    return { state: 'error', current, message: err instanceof Error ? err.message : String(err) };
   }
 }
 
@@ -76,8 +70,4 @@ export async function downloadUpdate(): Promise<void> {
 
 export function installUpdate(): void {
   autoUpdater.quitAndInstall();
-}
-
-export async function openReleasePage(): Promise<void> {
-  await shell.openExternal(RELEASES_URL);
 }

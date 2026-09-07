@@ -34,7 +34,7 @@ check: typecheck test ## Typy + testy
 build: ## Kompilacja do out/
 	npm run build
 
-mac: check build ## Paczka macOS (.dmg + .zip, arm64 i x64)
+mac: check build ## Paczka macOS, tylko lokalnie (.dmg + .zip, arm64 i x64)
 	$(BUILDER) --mac
 
 win: check build ## Paczka Windows (instalator .exe + .zip, x64)
@@ -46,8 +46,8 @@ dist: check build ## Obie platformy naraz
 bump: ## Podnosi wersje patch w package.json (0.0.1 -> 0.0.2)
 	npm version patch --no-git-tag-version
 
-release: check build ## Buduje i wysyla wydanie na GitHub Releases
-	GH_TOKEN=$$(gh auth token) $(BUILDER) --mac --win --publish always
+release: check build ## Buduje i wysyla wydanie Windows na GitHub Releases
+	GH_TOKEN=$$(gh auth token) $(BUILDER) --win --publish always
 	@echo
 	@echo "  Wydanie poszlo jako SZKIC. Dopoki go nie opublikujesz na GitHubie,"
 	@echo "  electron-updater go NIE widzi. Pamietaj tez o 'make bump' przed"

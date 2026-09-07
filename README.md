@@ -26,21 +26,19 @@ Type checking is a separate step: Vite strips types, it does not verify them.
 ## Packaging
 
 ```sh
-make mac        # .dmg + .zip (arm64, x64)
-make win        # NSIS installer + .zip (x64)
+make win        # NSIS installer (x64) — the only shipped platform
+make mac        # .dmg + .zip, local testing only, never published
 make dist       # both
 ```
 
-Builds are unsigned. macOS will refuse a downloaded build until the quarantine
-flag is cleared (`xattr -dr com.apple.quarantine soHelper.app`); Windows shows a
-SmartScreen warning.
+Builds are unsigned, so Windows shows a SmartScreen warning on install.
 
 ## Releases
 
 ```sh
 make bump                    # 0.0.1 -> 0.0.2 in package.json
 git commit -am "Release 0.0.2"
-make release                 # build both platforms, upload as a draft
+make release                 # build Windows, upload as a draft
 gh release edit v0.0.2 --draft=false -R DamianGierlowski/SoHelper
 ```
 
@@ -49,6 +47,7 @@ cannot see it. Bumping the version is not optional either — the updater
 compares against `package.json`, so re-releasing the same version reaches
 nobody.
 
-Auto-update is full on Windows. On macOS it only notifies and links to the
-downloads page — Squirrel.Mac verifies the code signature, which an unsigned
-build does not have.
+Releases are Windows-only, and so is auto-update. macOS builds stay local: they
+are useful for checking the packaged app, but shipping them would mean buying an
+Apple Developer certificate, since Squirrel.Mac verifies the code signature that
+an unsigned build lacks.

@@ -1,11 +1,6 @@
 import { ipcMain } from 'electron';
 import { locations, npcs, profiles, quests, questBoard, takes } from './db/repo.mts';
-import {
-  checkForUpdates,
-  downloadUpdate,
-  installUpdate,
-  openReleasePage,
-} from './updater.ts';
+import { checkForUpdates, downloadUpdate, installUpdate } from './updater.ts';
 import type { NpcInput, ProfileInput, QuestInput } from '../shared/types.mts';
 
 /**
@@ -51,5 +46,4 @@ export function registerIpc(): void {
   ipcMain.handle('updates:check', () => checkForUpdates());
   ipcMain.handle('updates:download', () => downloadUpdate());
   ipcMain.handle('updates:install', () => installUpdate());
-  ipcMain.handle('updates:openReleasePage', () => openReleasePage());
 }

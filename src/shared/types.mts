@@ -82,7 +82,7 @@ export interface AppInfo {
 }
 
 export type UpdateEvent =
-  | { type: 'available'; version: string; canAutoInstall: boolean }
+  | { type: 'available'; version: string }
   | { type: 'progress'; percent: number }
   | { type: 'downloaded' }
   | { type: 'error'; message: string };
@@ -90,8 +90,10 @@ export type UpdateEvent =
 export type UpdateStatus =
   /** Tryb deweloperski - nie ma czego aktualizowac. */
   | { state: 'dev'; current: string }
+  /** Platforma bez wydan (wszystko poza Windows). */
+  | { state: 'unsupported'; current: string }
   | { state: 'current'; current: string }
-  | { state: 'available'; current: string; version: string; canAutoInstall: boolean }
+  | { state: 'available'; current: string; version: string }
   | { state: 'error'; current: string; message: string };
 
 /** Kontrakt wystawiony przez preload jako `window.api`. */
@@ -133,7 +135,6 @@ export interface Api {
     check(): Promise<UpdateStatus>;
     download(): Promise<void>;
     install(): Promise<void>;
-    openReleasePage(): Promise<void>;
     /** Zwraca funkcje odpinajaca nasluch. */
     onEvent(callback: (event: UpdateEvent) => void): () => void;
   };

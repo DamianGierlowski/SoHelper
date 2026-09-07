@@ -17,6 +17,10 @@ files:
 asar: true
 
 mac:
+  # Buildy macOS sa tylko lokalne (sprawdzenie spakowanej wersji). Nie trafiaja
+  # do wydan, wiec nie powstaje tez latest-mac.yml - aplikacja na macOS
+  # nie ma czego szukac i nie szuka.
+  publish: null
   target:
     - target: dmg
       arch: [arm64, x64]

@@ -51,7 +51,6 @@ const api: Api = {
     check: invoke('updates:check'),
     download: invoke('updates:download'),
     install: invoke('updates:install'),
-    openReleasePage: invoke('updates:openReleasePage'),
     onEvent(callback) {
       const listener = (_event: unknown, payload: UpdateEvent): void => callback(payload);
       ipcRenderer.on('update:event', listener);

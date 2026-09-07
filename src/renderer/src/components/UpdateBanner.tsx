@@ -3,7 +3,7 @@ import type { UpdateEvent } from '../../../shared/types.mts';
 
 type State =
   | { kind: 'idle' }
-  | { kind: 'available'; version: string; canAutoInstall: boolean }
+  | { kind: 'available'; version: string }
   | { kind: 'downloading'; version: string; percent: number }
   | { kind: 'downloaded'; version: string }
   | { kind: 'error'; message: string };
@@ -17,9 +17,9 @@ export function UpdateBanner(): React.JSX.Element | null {
       setState((previous) => {
         switch (event.type) {
           case 'available':
-            return { kind: 'available', version: event.version, canAutoInstall: event.canAutoInstall };
+            return { kind: 'available', version: event.version };
           case 'progress':
-            // Wersje znamy tylko z wczesniejszego zdarzenia, wiec ja przenosimy.
+            // Numer wersji znamy tylko z wczesniejszego zdarzenia, wiec go przenosimy.
             return previous.kind === 'idle'
               ? previous
               : { kind: 'downloading', version: versionOf(previous), percent: event.percent };
@@ -42,18 +42,9 @@ export function UpdateBanner(): React.JSX.Element | null {
           <span>
             Version <strong>{state.version}</strong> is available.
           </span>
-          {state.canAutoInstall ? (
-            <button className="btn btn-primary" onClick={() => void window.api.updates.download()}>
-              Download update
-            </button>
-          ) : (
-            <button
-              className="btn btn-primary"
-              onClick={() => void window.api.updates.openReleasePage()}
-            >
-              Open downloads
-            </button>
-          )}
+          <button className="btn btn-primary" onClick={() => void window.api.updates.download()}>
+            Download update
+          </button>
         </>
       )}
 
