@@ -5,3 +5,5 @@ dist/
 release/
 .idea/
 .vscode/
+docs/
+mocks/
