@@ -31,9 +31,6 @@ const api: Api = {
   },
   npcs: {
     list: invoke('npcs:list'),
-    create: invoke('npcs:create'),
-    update: invoke('npcs:update'),
-    remove: invoke('npcs:remove'),
   },
   quests: {
     list: invoke('quests:list'),

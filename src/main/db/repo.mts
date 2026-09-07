@@ -1,11 +1,11 @@
 import { randomUUID } from 'node:crypto';
 import { execute, queryAll, queryOne, transaction } from './index.mts';
 import locationsData from '../../shared/locations.json' with { type: 'json' };
+import npcsData from '../../shared/npcs.json' with { type: 'json' };
 import type {
   HistoryEntry,
   Location,
   Npc,
-  NpcInput,
   Profile,
   ProfileInput,
   Quest,
@@ -17,7 +17,13 @@ import type {
 const MINUTE = 60_000;
 
 export const locations: Location[] = locationsData;
-const locationIds = new Set(locations.map((l) => l.id));
+
+/**
+ * NPC-e sa danymi wbudowanymi, nie wierszami w bazie - tak samo jak lokacje.
+ * Quest wskazuje na wpis z tej listy przez `npc_id`.
+ */
+export const npcs: Npc[] = npcsData;
+const npcById = new Map(npcs.map((n) => [n.id, n]));
 
 // --- ksztalty wierszy w bazie (snake_case) ---------------------------------
 
@@ -25,11 +31,6 @@ interface ProfileRow {
   id: string;
   nick: string;
   created_at: number;
-}
-interface NpcRow {
-  id: string;
-  name: string;
-  location_id: string;
 }
 interface QuestRow {
   id: string;
@@ -43,7 +44,6 @@ const toProfile = (r: ProfileRow): Profile => ({
   nick: r.nick,
   createdAt: r.created_at,
 });
-const toNpc = (r: NpcRow): Npc => ({ id: r.id, name: r.name, locationId: r.location_id });
 const toQuest = (r: QuestRow): Quest => ({
   id: r.id,
   name: r.name,
@@ -59,9 +59,10 @@ function requireText(value: unknown, label: string): string {
   return text;
 }
 
-function requireLocation(id: string): string {
-  if (!locationIds.has(id)) throw new Error(`Unknown location: ${id}`);
-  return id;
+function requireNpc(id: string): Npc {
+  const npc = npcById.get(id);
+  if (!npc) throw new Error('No such NPC');
+  return npc;
 }
 
 function requireCooldown(minutes: number): number {
@@ -154,53 +155,6 @@ export const profiles = {
   },
 };
 
-// --- NPC -------------------------------------------------------------------
-
-export const npcs = {
-  list(): Npc[] {
-    return queryAll<NpcRow>('SELECT * FROM npcs ORDER BY name').map(toNpc);
-  },
-
-  get(id: string): Npc | null {
-    const row = queryOne<NpcRow>('SELECT * FROM npcs WHERE id = ?', id);
-    return row ? toNpc(row) : null;
-  },
-
-  create({ name, locationId }: NpcInput): Npc {
-    const id = randomUUID();
-    execute(
-      'INSERT INTO npcs(id, name, location_id) VALUES (?, ?, ?)',
-      id,
-      requireText(name, 'NPC name'),
-      requireLocation(locationId),
-    );
-    return requireRow(this.get(id), 'Failed to create the NPC');
-  },
-
-  update(id: string, { name, locationId }: Partial<NpcInput>): Npc {
-    const current = requireRow(this.get(id), 'No such NPC');
-    execute(
-      'UPDATE npcs SET name = ?, location_id = ? WHERE id = ?',
-      name === undefined ? current.name : requireText(name, 'NPC name'),
-      locationId === undefined ? current.locationId : requireLocation(locationId),
-      id,
-    );
-    return requireRow(this.get(id), 'No such NPC');
-  },
-
-  /** Odmawia usuniecia NPC-ta, ktory ma questy - zamiast po cichu je skasowac. */
-  remove(id: string): void {
-    const row = queryOne<{ count: number }>(
-      'SELECT count(*) count FROM quests WHERE npc_id = ?',
-      id,
-    );
-    if (row && row.count > 0) {
-      throw new Error(`This NPC has ${row.count} quest(s) assigned. Delete them first.`);
-    }
-    execute('DELETE FROM npcs WHERE id = ?', id);
-  },
-};
-
 // --- questy ----------------------------------------------------------------
 
 export const quests = {
@@ -214,7 +168,7 @@ export const quests = {
   },
 
   create({ name, npcId, cooldownMinutes }: QuestInput): Quest {
-    requireRow(npcs.get(npcId), 'No such NPC');
+    requireNpc(npcId);
     const id = randomUUID();
     execute(
       'INSERT INTO quests(id, name, npc_id, cooldown_minutes) VALUES (?, ?, ?, ?)',
@@ -228,7 +182,7 @@ export const quests = {
 
   update(id: string, { name, npcId, cooldownMinutes }: Partial<QuestInput>): Quest {
     const current = requireRow(this.get(id), 'No such quest');
-    if (npcId !== undefined) requireRow(npcs.get(npcId), 'No such NPC');
+    if (npcId !== undefined) requireNpc(npcId);
     execute(
       'UPDATE quests SET name = ?, npc_id = ?, cooldown_minutes = ? WHERE id = ?',
       name === undefined ? current.name : requireText(name, 'Quest name'),
@@ -305,26 +259,27 @@ export function questBoard(profileId: string): QuestBoardRow[] {
     name: string;
     cooldown_minutes: number;
     npc_id: string;
-    npc_name: string;
-    location_id: string;
     last_taken_at: number | null;
   }>(
     `SELECT q.id, q.name, q.cooldown_minutes, q.npc_id,
-            n.name npc_name, n.location_id,
             (SELECT max(taken_at) FROM takes t
               WHERE t.quest_id = q.id AND t.profile_id = ?) last_taken_at
        FROM quests q
-       JOIN npcs n ON n.id = q.npc_id
       ORDER BY q.name`,
     profileId,
-  ).map((r) => ({
-    id: r.id,
-    name: r.name,
-    cooldownMinutes: r.cooldown_minutes,
-    npcId: r.npc_id,
-    npcName: r.npc_name,
-    locationId: r.location_id,
-    lastTakenAt: r.last_taken_at,
-    nextAvailableAt: r.last_taken_at ? r.last_taken_at + r.cooldown_minutes * MINUTE : null,
-  }));
+  ).map((r) => {
+    // Quest po NPC-cie, ktorego nie ma juz na liscie wbudowanej, nie znika -
+    // pokazujemy go z pusta nazwa zamiast ukrywac czyjas prace.
+    const npc = npcById.get(r.npc_id);
+    return {
+      id: r.id,
+      name: r.name,
+      cooldownMinutes: r.cooldown_minutes,
+      npcId: r.npc_id,
+      npcName: npc?.name ?? 'Unknown NPC',
+      locationId: npc?.locationId ?? '',
+      lastTakenAt: r.last_taken_at,
+      nextAvailableAt: r.last_taken_at ? r.last_taken_at + r.cooldown_minutes * MINUTE : null,
+    };
+  });
 }

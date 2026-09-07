@@ -8,7 +8,7 @@ import { Filters, type Segment } from './components/Filters.tsx';
 import { QuestTable } from './components/QuestTable.tsx';
 import { TakeDialog } from './components/TakeDialog.tsx';
 import { ProfileDialog } from './components/ProfileDialog.tsx';
-import { CatalogDialog } from './components/CatalogDialog.tsx';
+import { QuestsDialog } from './components/QuestsDialog.tsx';
 import { useConfirm } from './components/ConfirmDialog.tsx';
 import { UpdateBanner } from './components/UpdateBanner.tsx';
 
@@ -23,7 +23,7 @@ export default function App(): React.JSX.Element {
   const [segment, setSegment] = useState<Segment>('all');
 
   const [profileDialog, setProfileDialog] = useState<{ profile: Profile | null } | null>(null);
-  const [catalogOpen, setCatalogOpen] = useState<'quests' | 'npcs' | null>(null);
+  const [questsOpen, setQuestsOpen] = useState(false);
   const [takeQuest, setTakeQuest] = useState<QuestBoardRow | null>(null);
 
   const activeProfile = data.profiles.find((p) => p.id === data.activeProfileId) ?? null;
@@ -57,6 +57,18 @@ export default function App(): React.JSX.Element {
   }, [data.board, search, locationId, npcId, segment, now]);
 
   const readyCount = data.board.filter(isReady).length;
+
+  // Filtry pokazuja wylacznie to, co wystepuje w questach tej postaci. Wrzucenie
+  // tu wszystkich 481 wbudowanych NPC-tow zamieniloby liste w bezuzyteczna sciane.
+  const filterNpcs = useMemo(() => {
+    const used = new Set(data.board.map((q) => q.npcId));
+    return data.npcs.filter((npc) => used.has(npc.id));
+  }, [data.board, data.npcs]);
+
+  const filterLocations = useMemo(() => {
+    const used = new Set(data.board.map((q) => q.locationId));
+    return data.locations.filter((location) => used.has(location.id));
+  }, [data.board, data.locations]);
 
   const removeProfile = async (): Promise<void> => {
     if (!activeProfile) return;
@@ -98,10 +110,7 @@ export default function App(): React.JSX.Element {
             </p>
           </div>
           <div className="topbar-actions">
-            <button className="btn" onClick={() => setCatalogOpen('npcs')}>
-              NPCs
-            </button>
-            <button className="btn btn-primary" onClick={() => setCatalogOpen('quests')}>
+            <button className="btn btn-primary" onClick={() => setQuestsOpen(true)}>
               + Quest
             </button>
           </div>
@@ -132,11 +141,11 @@ export default function App(): React.JSX.Element {
             <div className="empty">
               <h2>No quests yet</h2>
               <p>
-                Add the NPC who gives the quest, then the quest itself and how long it takes to
+                Pick the location and the NPC who gives the quest, then say how long it takes to
                 reset. From then on you just hit “Take”.
               </p>
-              <button className="btn btn-primary" onClick={() => setCatalogOpen('npcs')}>
-                Open catalog
+              <button className="btn btn-primary" onClick={() => setQuestsOpen(true)}>
+                Add your first quest
               </button>
             </div>
           ) : (
@@ -151,10 +160,8 @@ export default function App(): React.JSX.Element {
                 onNpc={setNpcId}
                 segment={segment}
                 onSegment={setSegment}
-                locations={data.locations.filter((l) =>
-                  data.npcs.some((n) => n.locationId === l.id),
-                )}
-                npcs={data.npcs}
+                locations={filterLocations}
+                npcs={filterNpcs}
               />
               {rows.length === 0 ? (
                 <div className="empty">
@@ -202,15 +209,14 @@ export default function App(): React.JSX.Element {
         />
       )}
 
-      {catalogOpen && (
-        <CatalogDialog
-          initialTab={catalogOpen}
+      {questsOpen && (
+        <QuestsDialog
           locations={data.locations}
           npcs={data.npcs}
           quests={data.quests}
           run={data.run}
           confirm={confirm}
-          onClose={() => setCatalogOpen(null)}
+          onClose={() => setQuestsOpen(false)}
         />
       )}
 

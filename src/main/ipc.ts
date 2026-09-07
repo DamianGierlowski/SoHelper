@@ -1,7 +1,7 @@
 import { ipcMain } from 'electron';
 import { locations, npcs, profiles, quests, questBoard, takes } from './db/repo.mts';
 import { checkForUpdates, downloadUpdate, installUpdate } from './updater.ts';
-import type { NpcInput, ProfileInput, QuestInput } from '../shared/types.mts';
+import type { ProfileInput, QuestInput } from '../shared/types.mts';
 
 /**
  * Rejestruje kanaly IPC. Wszystko przez invoke/handle, wiec renderer dostaje
@@ -20,10 +20,7 @@ export function registerIpc(): void {
   ipcMain.handle('profiles:getActiveId', () => profiles.getActiveId());
   ipcMain.handle('profiles:setActive', (_e, id: string) => profiles.setActive(id));
 
-  ipcMain.handle('npcs:list', () => npcs.list());
-  ipcMain.handle('npcs:create', (_e, data: NpcInput) => npcs.create(data));
-  ipcMain.handle('npcs:update', (_e, id: string, data: Partial<NpcInput>) => npcs.update(id, data));
-  ipcMain.handle('npcs:remove', (_e, id: string) => npcs.remove(id));
+  ipcMain.handle('npcs:list', () => npcs);
 
   ipcMain.handle('quests:list', () => quests.list());
   ipcMain.handle('quests:create', (_e, data: QuestInput) => quests.create(data));

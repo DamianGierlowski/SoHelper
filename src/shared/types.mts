@@ -1,8 +1,13 @@
 // Jedno zrodlo prawdy o ksztalcie danych. Importowane wylacznie przez `import type`,
 // wiec znika przy kompilacji i nie tworzy zaleznosci w czasie dzialania.
 
+/**
+ * Dane wbudowane. `id` to guid z danych gry - stabilny, nawet gdy zmieni sie
+ * nazwa. `slug` jest tylko czytelna etykieta i nie sluzy do wiazania niczego.
+ */
 export interface Location {
   id: string;
+  slug: string;
   name: string;
   nameRu: string;
   timezone: string;
@@ -14,9 +19,12 @@ export interface Profile {
   createdAt: number;
 }
 
+/** Dane wbudowane. `locationId` wskazuje na guid lokacji, nie na jej slug. */
 export interface Npc {
   id: string;
   name: string;
+  nameRu: string;
+  profession: string | null;
   locationId: string;
 }
 
@@ -59,11 +67,6 @@ export interface QuestBoardRow {
 
 export interface ProfileInput {
   nick: string;
-}
-
-export interface NpcInput {
-  name: string;
-  locationId: string;
 }
 
 export interface QuestInput {
@@ -115,9 +118,6 @@ export interface Api {
   };
   npcs: {
     list(): Promise<Npc[]>;
-    create(data: NpcInput): Promise<Npc>;
-    update(id: string, data: Partial<NpcInput>): Promise<Npc>;
-    remove(id: string): Promise<void>;
   };
   quests: {
     list(): Promise<Quest[]>;

@@ -1,108 +1,126 @@
 [
   {
-    "id": "abandoned-warehouse",
+    "id": "01a038c9-b724-734f-8e56-bcb4a2ea5b67",
+    "slug": "abandoned-warehouse",
     "name": "Abandoned Warehouse",
     "nameRu": "Заброшенный склад",
     "timezone": "05:00"
   },
   {
-    "id": "airport",
+    "id": "01a038c9-b71e-7021-b4ef-3e996dae6410",
+    "slug": "airport",
     "name": "Airport",
     "nameRu": "Аэропорт",
     "timezone": "GMT +00:00"
   },
   {
-    "id": "black-forest",
+    "id": "01a038c9-b725-7144-828b-1d165234e3af",
+    "slug": "black-forest",
     "name": "Black Forest",
     "nameRu": "Черный лес",
     "timezone": "GMT +00:00"
   },
   {
-    "id": "caravan",
+    "id": "01a038c9-b720-72dd-830b-c6340753800f",
+    "slug": "caravan",
     "name": "Caravan",
     "nameRu": "Караван",
     "timezone": "GMT +04:00"
   },
   {
-    "id": "city-n",
+    "id": "01a038c9-b720-72dd-830b-c634079ab973",
+    "slug": "city-n",
     "name": "City N",
     "nameRu": "Город N",
     "timezone": "GMT +02:00"
   },
   {
-    "id": "great-cave",
+    "id": "01a038c9-b722-730b-bfeb-3e662f68f195",
+    "slug": "great-cave",
     "name": "Great Cave",
     "nameRu": "Большая пещера",
     "timezone": "GMT +00:00"
   },
   {
-    "id": "lesnaya-station",
+    "id": "01a038c9-b71b-72ca-8ff8-b6a5b3005336",
+    "slug": "lesnaya-station",
     "name": "Lesnaya Station",
     "nameRu": "Станция \"Лесная\"",
     "timezone": "GMT -02:00"
   },
   {
-    "id": "lyubech",
+    "id": "01a038c9-b71b-72ca-8ff8-b6a5b3612599",
+    "slug": "lyubech",
     "name": "Lyubech",
     "nameRu": "Любеч",
     "timezone": "GMT +00:00"
   },
   {
-    "id": "lyubech-outskirts",
+    "id": "01a038c9-b71c-73d3-8f1d-19091241e9c2",
+    "slug": "lyubech-outskirts",
     "name": "Lyubech Outskirts",
     "nameRu": "Окрестности Любеча",
     "timezone": "GMT +00:00"
   },
   {
-    "id": "novaya-zemlya-north-island",
+    "id": "01a038c9-b724-734f-8e56-bcb4a231a76d",
+    "slug": "novaya-zemlya-north-island",
     "name": "Novaya Zemlya — North Island",
     "nameRu": "Новая Земля о. Северный",
     "timezone": "GMT -01:00"
   },
   {
-    "id": "novaya-zemlya-south-island",
+    "id": "01a038c9-b71f-7389-b005-51f87362048b",
+    "slug": "novaya-zemlya-south-island",
     "name": "Novaya Zemlya — South Island",
     "nameRu": "Новая Земля о. Южный",
     "timezone": "GMT -01:00"
   },
   {
-    "id": "prison",
+    "id": "01a038c9-b721-7108-a2ec-04bfac5caccc",
+    "slug": "prison",
     "name": "Prison",
     "nameRu": "Тюрьма",
     "timezone": "GMT +03:00"
   },
   {
-    "id": "totems",
+    "id": "01a038c9-b726-7170-bb5c-a26a95741502",
+    "slug": "totems",
     "name": "Totems",
     "nameRu": "Тотемы",
     "timezone": "GMT +00:00"
   },
   {
-    "id": "tunguska",
+    "id": "01a038c9-b71e-7021-b4ef-3e996e7d6906",
+    "slug": "tunguska",
     "name": "Tunguska",
     "nameRu": "Тунгуска",
     "timezone": "GMT +04:00"
   },
   {
-    "id": "uncharted-sector-of-the-zone",
+    "id": "01a038c9-b726-7170-bb5c-a26a9655ae46",
+    "slug": "uncharted-sector-of-the-zone",
     "name": "Uncharted Sector of the Zone",
     "nameRu": "Неизведанный участок Зоны",
     "timezone": "08:00"
   },
   {
-    "id": "underground",
+    "id": "01a038c9-b723-71fb-8fa6-864e37ed375e",
+    "slug": "underground",
     "name": "Underground",
     "nameRu": "Подземелье",
     "timezone": "GMT +00:00"
   },
   {
-    "id": "underground-n",
+    "id": "01a038c9-b721-7108-a2ec-04bfac28d260",
+    "slug": "underground-n",
     "name": "Underground N",
     "nameRu": "Подземелье N",
     "timezone": "GMT +02:00"
   },
   {
-    "id": "vesuvius",
+    "id": "01a038c9-b71d-704d-bbcf-3a9648112bf1",
+    "slug": "vesuvius",
     "name": "Vesuvius",
     "nameRu": "Везувий",
     "timezone": "GMT +00:00"

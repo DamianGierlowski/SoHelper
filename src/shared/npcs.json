@@ -1,0 +1,3369 @@
+[
+  {
+    "id": "01a038c9-d261-72f9-9478-34ad1b5d44ba",
+    "name": "Abandoned Mine Storekeeper",
+    "nameRu": "Кладовщик Заброшенного рудника",
+    "profession": "Abandoned Mine Storekeeper",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d228-7286-bd2b-a3de8367b0a1",
+    "name": "Academician Leshchenko",
+    "nameRu": "Академик Лещенко",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d331-72eb-a41b-de70cbef4907",
+    "name": "Agent (Event)",
+    "nameRu": "Агент (Событие)",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d1d6-73d8-90d1-0a7d44d75a3a",
+    "name": "Ahmed ibn Fah Blan",
+    "nameRu": "Ахмед ибн Фах Блан",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1e3-73b9-8467-e960678ea63c",
+    "name": "Aleks",
+    "nameRu": "Алекс",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d248-72a1-8737-96832c3dc42a",
+    "name": "Aleksandr",
+    "nameRu": "Александр",
+    "profession": "Guide",
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d295-72a9-a205-a65828701bcf",
+    "name": "Aleksasha",
+    "nameRu": "Алексаша",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d26a-7131-81f1-15dff04178e1",
+    "name": "Ancient Stalker",
+    "nameRu": "Древний сталкер",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d22f-732d-8a67-f0cfb671c671",
+    "name": "Ander",
+    "nameRu": "Андер",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d25e-7344-976c-79fbbc6f59a7",
+    "name": "Andrey",
+    "nameRu": "Андрей",
+    "profession": "[Zimovye] Storekeeper",
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d326-7333-a6d9-33559629e3be",
+    "name": "Anomaly Researcher",
+    "nameRu": "Исследователь аномалий",
+    "profession": "Researcher",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d25c-711c-9ed9-0b56dcac777e",
+    "name": "Anton Poddubny",
+    "nameRu": "Антон Поддубный",
+    "profession": "[Radio Tower] Storekeeper",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d297-7023-ae99-d1699343cead",
+    "name": "Apollinary the Switchman",
+    "nameRu": "Аполлинарий Стрелочник",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d2d2-72b5-b580-8073404b8a2f",
+    "name": "Apostle Andrey",
+    "nameRu": "Апостол Андрей",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d210-73dd-9bd5-73adcf163824",
+    "name": "Archaeologist Howard",
+    "nameRu": "Археолог Говард",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d280-719f-a14f-3957b2b80bc0",
+    "name": "Arkady Rzhavy",
+    "nameRu": "Аркадий Ржавый",
+    "profession": null,
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d203-7040-9ae4-8d050e94359b",
+    "name": "Arkasha Mukhomor",
+    "nameRu": "Аркаша Мухомор",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d263-73f4-bdb9-a37293db4819",
+    "name": "Arsen",
+    "nameRu": "Арсэн",
+    "profession": "Buyer",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d21c-73ce-8c71-67960b286c4e",
+    "name": "Artur",
+    "nameRu": "Артур",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d283-702c-8bd1-2375fe80dce5",
+    "name": "Artur (N)",
+    "nameRu": "Артур (N)",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d27b-73ed-8719-003d2a262639",
+    "name": "Artyom",
+    "nameRu": "Артём",
+    "profession": "[North Island Port] Storekeeper",
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d260-7217-92ec-05c5b2800cff",
+    "name": "Asylum Storekeeper",
+    "nameRu": "Кладовщик Психбольницы",
+    "profession": "Asylum Storekeeper",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d32a-72ac-b5db-566da3c98338",
+    "name": "Ataman",
+    "nameRu": "Атаман",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d1d5-7015-b6df-39b59387e48c",
+    "name": "Aybolit",
+    "nameRu": "Айболит",
+    "profession": "Doctor",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1f3-72a9-80bd-af875bc37fc1",
+    "name": "Balamut",
+    "nameRu": "Баламут",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d2a9-7153-8d3d-e510f907e514",
+    "name": "Barkeep",
+    "nameRu": "Буфетчик",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d286-7212-99f2-5c734a07e912",
+    "name": "Base Armorer (Abandoned Mine)",
+    "nameRu": "Бронник базы (Заброшенный рудник)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d288-73b0-8505-957776b329e8",
+    "name": "Base Armorer (Asylum)",
+    "nameRu": "Бронник базы (Психбольница)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2e1-72ad-b13d-d1fa10acb338",
+    "name": "Base Armorer (DPU-7)",
+    "nameRu": "Бронник базы (ДПУ-7)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2eb-70a9-9284-12758e296c46",
+    "name": "Base Armorer (Fire Station)",
+    "nameRu": "Бронник базы (Пожарная станция)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2f4-712a-a20a-79deda5820ed",
+    "name": "Base Armorer (Fish Farm)",
+    "nameRu": "Бронник базы (Рыбхоз)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d277-71f4-8634-715d09125b7b",
+    "name": "Base Armorer (Hilltop Village)",
+    "nameRu": "Бронник базы (Деревня на холме)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2e6-73d1-af65-b933b84d560b",
+    "name": "Base Armorer (Sand Quarry)",
+    "nameRu": "Бронник базы (Песчаный карьер)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2c7-708b-91df-ffb826b79295",
+    "name": "Base Armorer (SELKHOZSNAB)",
+    "nameRu": "Бронник базы (СЕЛЬХОЗСНАБ)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2db-73c2-945e-d631e09648ce",
+    "name": "Base Armorer (Substation)",
+    "nameRu": "Бронник базы (Подстанция)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d276-73d4-9e3b-4e7fee57429f",
+    "name": "Base Armorer (Tunguska)",
+    "nameRu": "Бронник базы (Тунгуска)",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d272-7194-a6a3-dbc2c4078828",
+    "name": "Base Buyer (Abandoned Mine)",
+    "nameRu": "Скупщик базы (Заброшенный рудник)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d289-715f-8626-0a72bc601d76",
+    "name": "Base Buyer (Asylum)",
+    "nameRu": "Скупщик базы (Психбольница)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2ec-73cc-8190-d9be33c94248",
+    "name": "Base Buyer (Fire Station)",
+    "nameRu": "Скупщик базы (Пожарная станция)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d275-72b2-be01-f046581316ca",
+    "name": "Base Buyer (Hilltop Village)",
+    "nameRu": "Скупщик базы (Деревня на холме)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2f0-7330-b556-5419ef632856",
+    "name": "Base Buyer (Novikovo Bus Station)",
+    "nameRu": "Скупщик базы (Автостанция Новиково)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2e8-72c0-b6ae-9a4b3bb94ae6",
+    "name": "Base Buyer (Sand Quarry)",
+    "nameRu": "Скупщик базы (Песчаный карьер)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2c6-72f4-9815-1a8538ced240",
+    "name": "Base Buyer (SELKHOZSNAB)",
+    "nameRu": "Скупщик базы (СЕЛЬХОЗСНАБ)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2e0-712c-aa89-6eab584164aa",
+    "name": "Base Buyer (Substation)",
+    "nameRu": "Скупщик базы (Подстанция)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d26f-73dc-93e6-cc40102436f7",
+    "name": "Base Buyer (Tunguska)",
+    "nameRu": "Скупщик базы (Тунгуска)",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d273-7014-adbf-64975394993a",
+    "name": "Base Doctor (Abandoned Mine)",
+    "nameRu": "Врач базы (Заброшенный рудник)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d289-715f-8626-0a72bc483506",
+    "name": "Base Doctor (Asylum)",
+    "nameRu": "Врач базы (Психбольница)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2e3-710e-816e-3e10beb04dd9",
+    "name": "Base Doctor (DPU-7)",
+    "nameRu": "Врач базы (ДПУ-7)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2e9-7201-b8a8-458fa7771671",
+    "name": "Base Doctor (Fire Station)",
+    "nameRu": "Врач базы (Пожарная станция)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2f5-7101-8020-b70857c5fc96",
+    "name": "Base Doctor (Fish Farm)",
+    "nameRu": "Врач базы (Рыбхоз)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d274-7038-a03f-fd5e38e35840",
+    "name": "Base Doctor (Hilltop Village)",
+    "nameRu": "Врач базы (Деревня на холме)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2f1-73b2-bc09-2aad618d4600",
+    "name": "Base Doctor (Novikovo Bus Station)",
+    "nameRu": "Врач базы (Автостанция Новиково)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2e5-7100-81be-ad0d52775aed",
+    "name": "Base Doctor (Sand Quarry)",
+    "nameRu": "Врач базы (Песчаный карьер)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2c6-72f4-9815-1a853828c1e7",
+    "name": "Base Doctor (SELKHOZSNAB)",
+    "nameRu": "Врач базы (СЕЛЬХОЗСНАБ)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2dd-71f5-bb37-46520422d32b",
+    "name": "Base Doctor (Substation)",
+    "nameRu": "Врач базы (Подстанция)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d271-7064-beb1-b29bad45a017",
+    "name": "Base Doctor (Tunguska)",
+    "nameRu": "Врач базы (Тунгуска)",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d271-7064-beb1-b29bad461a47",
+    "name": "Base Gunsmith (Abandoned Mine)",
+    "nameRu": "Оружейник базы (Заброшенный рудник)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d287-717c-a22e-62ee06fd9771",
+    "name": "Base Gunsmith (Asylum)",
+    "nameRu": "Оружейник базы (Психбольница)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2e3-710e-816e-3e10bde7911b",
+    "name": "Base Gunsmith (DPU-7)",
+    "nameRu": "Оружейник базы (ДПУ-7)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2e9-7201-b8a8-458fa835fbd5",
+    "name": "Base Gunsmith (Fire Station)",
+    "nameRu": "Оружейник базы (Пожарная станция)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2f6-708f-a62f-fb3a5615a4f2",
+    "name": "Base Gunsmith (Fish Farm)",
+    "nameRu": "Оружейник базы (Рыбхоз)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d274-7038-a03f-fd5e387f7346",
+    "name": "Base Gunsmith (Hilltop Village)",
+    "nameRu": "Оружейник базы (Деревня на холме)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2f2-7009-a704-086ad426fc2e",
+    "name": "Base Gunsmith (Novikovo Bus Station)",
+    "nameRu": "Оружейник базы (Автостанция Новиково)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2e7-71d2-83be-d844c1a09744",
+    "name": "Base Gunsmith (Sand Quarry)",
+    "nameRu": "Оружейник базы (Песчаный карьер)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2c5-73e6-9f47-b9a6738e437e",
+    "name": "Base Gunsmith (SELKHOZSNAB)",
+    "nameRu": "Оружейник базы (СЕЛЬХОЗСНАБ)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2de-71be-ba18-9ccb181b0762",
+    "name": "Base Gunsmith (Substation)",
+    "nameRu": "Оружейник базы (Подстанция)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d270-7397-97fb-327bfc8c28c7",
+    "name": "Base Gunsmith (Tunguska)",
+    "nameRu": "Оружейник базы (Тунгуска)",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d308-70a3-bddd-fef6f5b710ac",
+    "name": "Base Manager (Abandoned Mine)",
+    "nameRu": "Управляющий базы (Заброшенный рудник)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d309-7236-942a-dd07d55c23e6",
+    "name": "Base Manager (Asylum)",
+    "nameRu": "Управляющий базы (Психбольница)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d305-73d2-a6b1-b0ae504e92d6",
+    "name": "Base Manager (DPU-7)",
+    "nameRu": "Управляющий базы (ДПУ-7)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d306-7268-a052-a50283093599",
+    "name": "Base Manager (Fire Station)",
+    "nameRu": "Управляющий базы (Пожарная станция)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d30b-73c1-9401-ad48949a2a37",
+    "name": "Base Manager (Fish Farm)",
+    "nameRu": "Управляющий базы (Рыбхоз)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d308-70a3-bddd-fef6f4f15f49",
+    "name": "Base Manager (Hilltop Village)",
+    "nameRu": "Управляющий базы (Деревня на холме)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d30a-71b1-b5fa-35acb13148af",
+    "name": "Base Manager (Novikovo Bus Station)",
+    "nameRu": "Управляющий базы (Автостанция Новиково)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d304-71e8-ac22-cd94ff4bedfe",
+    "name": "Base Manager (Sand Quarry)",
+    "nameRu": "Управляющий базы (Песчаный карьер)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d306-7268-a052-a50283cdfeec",
+    "name": "Base Manager (SELKHOZSNAB)",
+    "nameRu": "Управляющий базы (СЕЛЬХОЗСНАБ)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d307-7186-8e1f-e7a10198455d",
+    "name": "Base Manager (Substation)",
+    "nameRu": "Управляющий базы (Подстанция)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d303-7183-a9be-c2471d9dd624",
+    "name": "Base Manager (Tunguska)",
+    "nameRu": "Управляющий базы (Тунгуска)",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d320-71fd-98ec-6b3e6ee42a42",
+    "name": "Base Manager (Winter Village)",
+    "nameRu": "Управляющий базой (Зимняя деревня)",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d28d-73e1-8db5-b1215c859fbd",
+    "name": "Base Technician (Abandoned Mine)",
+    "nameRu": "Техник базы (Заброшенный рудник)",
+    "profession": "Technician",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d28a-72b5-b5df-4c0ebc0eecb7",
+    "name": "Base Technician (Asylum)",
+    "nameRu": "Техник базы (Психбольница)",
+    "profession": "Technician",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2e2-7314-a1c5-e852547ea8f1",
+    "name": "Base Technician (DPU-7)",
+    "nameRu": "Техник базы (ДПУ-7)",
+    "profession": "Technician",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2ea-72c4-b4fb-d4262d9f42f4",
+    "name": "Base Technician (Fire Station)",
+    "nameRu": "Техник базы (Пожарная станция)",
+    "profession": "Technician",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2f5-7101-8020-b70858808fde",
+    "name": "Base Technician (Fish Farm)",
+    "nameRu": "Техник базы (Рыбхоз)",
+    "profession": "Technician",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d28b-71cc-8c5c-0a90ed92dd11",
+    "name": "Base Technician (Hilltop Village)",
+    "nameRu": "Техник базы (Деревня на холме)",
+    "profession": "Technician",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2f2-7009-a704-086ad3effc86",
+    "name": "Base Technician (Novikovo Bus Station)",
+    "nameRu": "Техник базы (Автостанция Новиково)",
+    "profession": "Technician",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2e6-73d1-af65-b933b90dcc16",
+    "name": "Base Technician (Sand Quarry)",
+    "nameRu": "Техник базы (Песчаный карьер)",
+    "profession": "Technician",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2c8-72f0-bea2-03cef5eebda7",
+    "name": "Base Technician (SELKHOZSNAB)",
+    "nameRu": "Техник базы (СЕЛЬХОЗСНАБ)",
+    "profession": "Technician",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2df-717e-a087-110538014465",
+    "name": "Base Technician (Substation)",
+    "nameRu": "Техник базы (Подстанция)",
+    "profession": "Technician",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d26e-71f2-87c5-3a2edb77ad31",
+    "name": "Base Technician (Tunguska)",
+    "nameRu": "Техник базы (Тунгуска)",
+    "profession": "Technician",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d1df-713c-ad7b-7fa3a96a5b6d",
+    "name": "Basmach",
+    "nameRu": "Басмач",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d29c-719c-9736-85a7dc07fcc5",
+    "name": "Bathhouse Attendant",
+    "nameRu": "Банщик",
+    "profession": "Club Security",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d20b-7181-8e5b-d0eef439acf9",
+    "name": "Batya",
+    "nameRu": "Батя",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d31b-7137-be32-2c8c5c78aaa5",
+    "name": "Begemot",
+    "nameRu": "Бегемот",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d240-7353-9c25-06f5f0047d1a",
+    "name": "Beloruchka",
+    "nameRu": "Белоручка",
+    "profession": "Doctor",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d22b-72e5-861f-049a92d86abd",
+    "name": "Belukha",
+    "nameRu": "Белуха",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d221-73eb-89eb-1578d636acba",
+    "name": "Bely Medved",
+    "nameRu": "Белый Медвед",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d22f-732d-8a67-f0cfb6b8037c",
+    "name": "Belyash",
+    "nameRu": "Беляш",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d255-736f-8ad9-79a32694f8da",
+    "name": "Bobyor",
+    "nameRu": "Бобёр",
+    "profession": null,
+    "locationId": "01a038c9-b722-730b-bfeb-3e662f68f195"
+  },
+  {
+    "id": "01a038c9-d29d-7162-83bb-dc02f2ab4264",
+    "name": "Bogdan Shtripka",
+    "nameRu": "Богдан Штрипка",
+    "profession": "Club Security",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1ec-7382-af27-bcd3a92d3993",
+    "name": "Bolotnik",
+    "nameRu": "Болотник",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d281-7259-9a1b-b3ecf5279544",
+    "name": "Boris",
+    "nameRu": "Борис",
+    "profession": "Tailor",
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d241-7055-861c-908e90bab40b",
+    "name": "Borov Vitya",
+    "nameRu": "Боров Витя",
+    "profession": "[\"Mokrukha\"] Storekeeper",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d330-707f-b4c9-a1cc3c65de58",
+    "name": "Bouncer",
+    "nameRu": "Вышибала",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d1cd-72bd-9af5-c000d8a7b9e2",
+    "name": "Bright Mentor Mikhail",
+    "nameRu": "Светлый Наставник Михаил",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d1d4-7013-b369-39487db4fce2",
+    "name": "Buch",
+    "nameRu": "Буч",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d233-730d-bfe1-23acf51c1a21",
+    "name": "Bugor",
+    "nameRu": "Бугор",
+    "profession": null,
+    "locationId": "01a038c9-b721-7108-a2ec-04bfac5caccc"
+  },
+  {
+    "id": "01a038c9-d2a4-7101-9dfe-0e38bbe4382b",
+    "name": "Buyan",
+    "nameRu": "Буян",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d329-73a3-9078-a3381cf89808",
+    "name": "Camp Guard",
+    "nameRu": "Охранник лагеря",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d1cf-7207-88d4-8a7710fe28ee",
+    "name": "Captain Blzhdad",
+    "nameRu": "Капитан Блждад",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d232-7398-abd9-7b7f95d1c506",
+    "name": "Captain Shperling",
+    "nameRu": "Капитан Шперлинг",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2d6-72b0-ba5a-77d2bbfb8320",
+    "name": "Captive",
+    "nameRu": "Пленник",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2ae-70ae-bc4a-babd5a4e6dbf",
+    "name": "Chairman",
+    "nameRu": "Председатель",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2cb-7320-b623-778ecfc47865",
+    "name": "Chaplain",
+    "nameRu": "Капеллан",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d31d-71d3-a09a-5430fdd0ed62",
+    "name": "Chester",
+    "nameRu": "Честер",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d266-7227-a4ea-f7bc5f6c2c04",
+    "name": "Chudoruk",
+    "nameRu": "Чудорук",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d29e-7396-b31a-cfd33fcbeeac",
+    "name": "Comrade Zimin",
+    "nameRu": "Товарищ Зимин",
+    "profession": "Club Security",
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d2a5-7144-a7b8-f2a017b4cc1e",
+    "name": "Consultant Pavlov",
+    "nameRu": "Консультант Павлов",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2ab-70cd-ac6d-2ccaa82a8332",
+    "name": "Corporal Porechny",
+    "nameRu": "Ефрейтор Поречный",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1e0-70f1-8ae2-e1762f241868",
+    "name": "Courier",
+    "nameRu": "Курьер",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d21f-7276-9d59-67ddabd2fbaf",
+    "name": "Craftsman",
+    "nameRu": "Мастер",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d2ab-70cd-ac6d-2ccaa89cf4c0",
+    "name": "Danilko",
+    "nameRu": "Данилко",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1fc-731d-ad84-29f2ea9dca8d",
+    "name": "Ded",
+    "nameRu": "Дед",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d2be-703b-a4f1-8eee47cb4bda",
+    "name": "Ded Makar",
+    "nameRu": "Дед Макар",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d21e-71ee-a6af-89aad18a5c7b",
+    "name": "Ded Moroz",
+    "nameRu": "Дед Мороз",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d214-7168-b796-8a388c46dc4d",
+    "name": "Dersu",
+    "nameRu": "Дерсу",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c6340753800f"
+  },
+  {
+    "id": "01a038c9-d255-736f-8ad9-79a326e1d961",
+    "name": "Dima Bugay",
+    "nameRu": "Дима Бугай",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d1e5-7362-88b3-e25567f19971",
+    "name": "Dima Golova",
+    "nameRu": "Дима Голова",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d290-7083-9d0c-b572b48e5359",
+    "name": "Dima Pyatka",
+    "nameRu": "Дима Пятка",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d213-730a-a10e-1f09a502868b",
+    "name": "Diogen",
+    "nameRu": "Диоген",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c6340753800f"
+  },
+  {
+    "id": "01a038c9-d1d2-712e-8afb-c5a28b600dfb",
+    "name": "Dirty Yuri",
+    "nameRu": "Грязный Юрий",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d200-7145-bb55-6e7a76ed2bf8",
+    "name": "Dispatcher",
+    "nameRu": "Диспетчерша",
+    "profession": null,
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d2bb-7064-bf77-12f3086c9610",
+    "name": "Distillery Apprentice",
+    "nameRu": "Подмастерье с ЛВЗ",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d218-73a4-9060-efda9408f7f0",
+    "name": "Dmitry Sherstnov",
+    "nameRu": "Дмитрий Шерстнов",
+    "profession": null,
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d22c-73c3-b781-60182852323e",
+    "name": "Dobronravov",
+    "nameRu": "Добронравов",
+    "profession": null,
+    "locationId": "01a038c9-b71f-7389-b005-51f87362048b"
+  },
+  {
+    "id": "01a038c9-d32b-70e1-b452-e15bd0b6bfa3",
+    "name": "Doc",
+    "nameRu": "Док",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d216-7191-95e3-954960fb74b6",
+    "name": "Docent Krasnov",
+    "nameRu": "Доцент Краснов",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d212-71e9-ba76-c9944d143c01",
+    "name": "Docent Simonov",
+    "nameRu": "Доцент Симонов",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1db-73fc-8c91-6c1ed17cc6cf",
+    "name": "Doctor Domov",
+    "nameRu": "Доктор Домов",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1d4-7013-b369-39487d7cb361",
+    "name": "Doctor Eisenstein",
+    "nameRu": "Доктор Эйзенштейн",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d316-703f-a202-16ac321494f6",
+    "name": "Doctor Garin",
+    "nameRu": "Доктор Гарин",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d267-70ca-bfe5-ae79f4602d54",
+    "name": "Doctor Kamenev",
+    "nameRu": "Доктор Каменев",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d2b1-7278-a5af-aae410d3586a",
+    "name": "Doctor Zakharov",
+    "nameRu": "Доктор Захаров",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d20a-721b-bd39-037d18b4cf91",
+    "name": "Doctor Zhivoderov",
+    "nameRu": "Доктор Живодеров",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1e1-70d5-85d0-75a1e3eb2c6c",
+    "name": "Doctor Zinovyev",
+    "nameRu": "Доктор Зиновьев",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d2c9-7035-808b-bece5a8e7f20",
+    "name": "Doorman",
+    "nameRu": "Швейцар",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2e0-712c-aa89-6eab5920d5ea",
+    "name": "DPU 7 Storekeeper",
+    "nameRu": "Кладовщик ДПУ 7",
+    "profession": "DPU 7 Storekeeper",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d222-7125-99c7-597a31880efb",
+    "name": "Dubinko",
+    "nameRu": "Дубинко",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d239-7044-9b66-32a8eb198a44",
+    "name": "Egor Kroev",
+    "nameRu": "Егор Кроев",
+    "profession": "Tailor",
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d1ff-72bf-b607-a783e3800d4b",
+    "name": "Egor Strelok",
+    "nameRu": "Егор Стрелок",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d293-703f-9886-7c51a918a5d9",
+    "name": "Egyptian",
+    "nameRu": "Египтянин",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d278-70d2-b186-6e76fc953200",
+    "name": "Elevator Operator",
+    "nameRu": "Лифтер",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d246-729f-890a-3665d5d465c3",
+    "name": "Eskulap",
+    "nameRu": "Эскулап",
+    "profession": "Doctor",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d20d-704a-a89e-4d2a7a2cb6e6",
+    "name": "Exhausted Stalker",
+    "nameRu": "Измученный сталкер",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d2ee-7301-9ce3-4ab3fbd6eccd",
+    "name": "Faction Registrar (Airport)",
+    "nameRu": "Регистратор группировок (Аэропорт)",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d2ee-7301-9ce3-4ab3fcd528b7",
+    "name": "Faction Registrar (Black Forest)",
+    "nameRu": "Регистратор группировок (Черный лес)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d284-71bf-bbd2-cf6b1089c867",
+    "name": "Faction Registrar (Lyubech Outskirts)",
+    "nameRu": "Регистратор группировок (Окрестности Любеча)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2f0-7330-b556-5419ef476b81",
+    "name": "Faction Registrar (Novaya Zemlya)",
+    "nameRu": "Регистратор группировок (Новая Земля)",
+    "profession": null,
+    "locationId": "01a038c9-b71f-7389-b005-51f87362048b"
+  },
+  {
+    "id": "01a038c9-d2ef-7229-8a34-a8b4766a52e5",
+    "name": "Faction Registrar (Tunguska)",
+    "nameRu": "Регистратор группировок (Тунгуска)",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d2ed-70a7-bdc1-9b7da1a47fc4",
+    "name": "Faction Registrar (Vesuvius)",
+    "nameRu": "Регистратор группировок (Везувий)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2c8-72f0-bea2-03cef518e1ec",
+    "name": "Farm Base Storekeeper",
+    "nameRu": "Кладовщик Сельхозбазы",
+    "profession": "Farm Base Storekeeper",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d324-7123-bf35-6985c8570148",
+    "name": "Farmhand at the Garden Bed",
+    "nameRu": "Батрак у грядки",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d327-72ad-b373-8b66c1f0b7f0",
+    "name": "Farmhand in the Field",
+    "nameRu": "Батрак в поле",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d2b3-7359-8a7c-1faff4178fb2",
+    "name": "Father Nikodim",
+    "nameRu": "Отец Никодим",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d28e-7024-a416-e8c7e3aef474",
+    "name": "Fedor",
+    "nameRu": "Федор",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d1dc-7053-b000-70e8789f949b",
+    "name": "Fedor Govorun",
+    "nameRu": "Федор Говорун",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d316-703f-a202-16ac32ad4f3a",
+    "name": "Feliks Yasenetsky",
+    "nameRu": "Феликс Ясенецкий",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d2cf-70d9-9237-8399f6515189",
+    "name": "Filipok",
+    "nameRu": "Филипок",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1d7-70d6-98d5-64cd9e7e69b7",
+    "name": "Fin",
+    "nameRu": "Фин",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2eb-70a9-9284-12758eaed7a3",
+    "name": "Fire Station Storekeeper",
+    "nameRu": "Кладовщик Пожарки",
+    "profession": "Fire Station Storekeeper",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2f3-732b-94b5-c88015379a3a",
+    "name": "Fish Farm Storekeeper",
+    "nameRu": "Кладовщик Рыбхоза",
+    "profession": "Fish Farm Storekeeper",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d205-7119-8fd6-3a5ddcddac45",
+    "name": "Former Distillery Craftsman",
+    "nameRu": "Бывший Мастер ЛВЗ",
+    "profession": "Technician",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2a2-71df-b449-54a70f88dd34",
+    "name": "Fortified Area Manager (66 km)",
+    "nameRu": "Управляющий Укрепрайона (66 км)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d29a-72f0-bc5a-e80d19baafa8",
+    "name": "Fortified Area Manager (Abandoned Bomb Shelter)",
+    "nameRu": "Управляющий Укрепрайона (Заброшенное бомбоубежище)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2fb-71b9-92ad-82e8e9008529",
+    "name": "Fortified Area Manager (Abandoned Parking Lot)",
+    "nameRu": "Управляющий Укрепрайона (Заброшенная автостоянка)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2fe-71ca-996f-7b1b458e1e60",
+    "name": "Fortified Area Manager (Boatyard)",
+    "nameRu": "Управляющий Укрепрайона (Лодочное производство)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2f9-70b5-9d9f-ac75eafb62c8",
+    "name": "Fortified Area Manager (Dacha Cooperative)",
+    "nameRu": "Управляющий Укрепрайона (Дачный кооператив)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2f8-72ef-b2fb-96235e60ed4f",
+    "name": "Fortified Area Manager (Fisherman's Hut)",
+    "nameRu": "Управляющий Укрепрайона (Рыбацкая хижина)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2ff-7328-a6cf-56461802cf0a",
+    "name": "Fortified Area Manager (GAI Post)",
+    "nameRu": "Управляющий Укрепрайона (Пост ГАИ)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2f7-7114-b0d0-3fd4b49bd3cd",
+    "name": "Fortified Area Manager (Hunting Lodge)",
+    "nameRu": "Управляющий Укрепрайона (Охотничья заимка)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d29b-7134-a24e-7a88611e4551",
+    "name": "Fortified Area Manager (Khvorostovka)",
+    "nameRu": "Управляющий Укрепрайона (Хворостовка)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d299-701b-a6d3-a656078840ce",
+    "name": "Fortified Area Manager (Konukovka Village)",
+    "nameRu": "Управляющий Укрепрайона (д. Конуковка)",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d2f7-7114-b0d0-3fd4b3b4d110",
+    "name": "Fortified Area Manager (Krasno Checkpoint)",
+    "nameRu": "Управляющий Укрепрайона (Блокпост Красно)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2f9-70b5-9d9f-ac75ea21f63b",
+    "name": "Fortified Area Manager (Krasno Village Outskirts)",
+    "nameRu": "Управляющий Укрепрайона (Окраина с. Красно)",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2ff-7328-a6cf-5646185eeee0",
+    "name": "Fortified Area Manager (Ozero Dacha Association)",
+    "nameRu": "Управляющий Укрепрайона (СНТ Озеро)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d30a-71b1-b5fa-35acb0831f69",
+    "name": "Fortified Area Manager (Radiance Mountain — East)",
+    "nameRu": "Управляющий Укрепрайона (Гора сияния - восток)",
+    "profession": null,
+    "locationId": "01a038c9-b71f-7389-b005-51f87362048b"
+  },
+  {
+    "id": "01a038c9-d301-7360-8df2-d344f2be568d",
+    "name": "Fortified Area Manager (Radiance Mountain — South)",
+    "nameRu": "Управляющий Укрепрайона (Гора сияния - юг)",
+    "profession": null,
+    "locationId": "01a038c9-b71f-7389-b005-51f87362048b"
+  },
+  {
+    "id": "01a038c9-d302-71a2-b84c-1c8785b210fa",
+    "name": "Fortified Area Manager (Radiance Mountain — West)",
+    "nameRu": "Управляющий Укрепрайона (Гора сияния - запад)",
+    "profession": null,
+    "locationId": "01a038c9-b71f-7389-b005-51f87362048b"
+  },
+  {
+    "id": "01a038c9-d2fc-7352-9152-8077b3168719",
+    "name": "Fortified Area Manager (Radio Station)",
+    "nameRu": "Управляющий Укрепрайона (Радиостанция)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d301-7360-8df2-d344f26dfb27",
+    "name": "Fortified Area Manager (Recreation Center)",
+    "nameRu": "Управляющий Укрепрайона (База отдыха)",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d300-72e8-bc87-b633c7a807b1",
+    "name": "Fortified Area Manager (Road to Vyselki)",
+    "nameRu": "Управляющий Укрепрайона (Дорога к д. Выселки)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2fa-73ff-ab04-9fdeb3c888c3",
+    "name": "Fortified Area Manager (Sawmill)",
+    "nameRu": "Управляющий Укрепрайона (Лесопилка)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2fd-7052-97d6-c4104bcf5af8",
+    "name": "Fortified Area Manager (Station)",
+    "nameRu": "Управляющий Укрепрайона (Станция)",
+    "profession": null,
+    "locationId": "01a038c9-b71f-7389-b005-51f87362048b"
+  },
+  {
+    "id": "01a038c9-d2fd-7052-97d6-c4104ccc6516",
+    "name": "Fortified Area Manager (Water Treatment Plant)",
+    "nameRu": "Управляющий Укрепрайона (Очистная станция)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2fb-71b9-92ad-82e8e999b097",
+    "name": "Fortified Area Manager (Zadorozhye)",
+    "nameRu": "Управляющий Укрепрайона (Задорожье)",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2a7-727d-bf91-ba42fd094765",
+    "name": "Franklin",
+    "nameRu": "Франклин",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d24d-70e2-ba8d-60a41d09339c",
+    "name": "Frol",
+    "nameRu": "Фрол",
+    "profession": "Technician",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d28f-7122-9c6a-12fa33b120fe",
+    "name": "Funduk",
+    "nameRu": "Фундук",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d1fe-7266-8c76-e91725fc0328",
+    "name": "Fyodor Salnikov",
+    "nameRu": "Фёдор Сальников",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d202-7051-9dae-7f963de3a00f",
+    "name": "Gamekeeper",
+    "nameRu": "Егерь",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d2bc-700c-9262-f06370d9e476",
+    "name": "Gauss",
+    "nameRu": "Гаусс",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d2be-703b-a4f1-8eee481d1a02",
+    "name": "Gavrik",
+    "nameRu": "Гаврик",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d1f5-7365-8f63-d0d5e7b42a61",
+    "name": "Gaydar",
+    "nameRu": "Гайдар",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d2b9-7014-b6a7-d6839d8c064a",
+    "name": "Gena",
+    "nameRu": "Гена",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d322-7312-b5cd-4e80792fcbf8",
+    "name": "Georgy Karasyov",
+    "nameRu": "Георгий Карасёв",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d2c1-729d-a85e-3fe5dae657c5",
+    "name": "Gesha \"Cryogen\"",
+    "nameRu": "Геша \"Криоген\"",
+    "profession": null,
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d252-70e5-81fe-dcff42f1f994",
+    "name": "Gleb Kochetkov",
+    "nameRu": "Глеб Кочетков",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d1cc-71f1-901b-26eb30b109f3",
+    "name": "Gleb Maslov",
+    "nameRu": "Глеб Маслов",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d23a-7073-b75d-b0cf3b648e7f",
+    "name": "Gleb Strelok",
+    "nameRu": "Глеб Стрелок",
+    "profession": "Gunsmith",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d226-703a-b1b2-59f718f8b97f",
+    "name": "Gonets",
+    "nameRu": "Гонец",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d1ef-71f4-aed9-3195208e200a",
+    "name": "Gourmet",
+    "nameRu": "Гурман",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d223-7312-a24a-36ebc4cc72b6",
+    "name": "Greedy Airlock Door",
+    "nameRu": "Жадная гермодверь",
+    "profession": null,
+    "locationId": "01a038c9-b721-7108-a2ec-04bfac28d260"
+  },
+  {
+    "id": "01a038c9-d223-7312-a24a-36ebc53538cd",
+    "name": "Greedy Door",
+    "nameRu": "Жадная дверь",
+    "profession": null,
+    "locationId": "01a038c9-b721-7108-a2ec-04bfac28d260"
+  },
+  {
+    "id": "01a038c9-d224-7200-9b71-cd1508c86f14",
+    "name": "Greedy Gate",
+    "nameRu": "Жадные ворота",
+    "profession": null,
+    "locationId": "01a038c9-b721-7108-a2ec-04bfac28d260"
+  },
+  {
+    "id": "01a038c9-d225-7297-b748-6d0c3b12b158",
+    "name": "Greedy Large Gate",
+    "nameRu": "Жадные большие ворота",
+    "profession": null,
+    "locationId": "01a038c9-b721-7108-a2ec-04bfac28d260"
+  },
+  {
+    "id": "01a038c9-d1e3-73b9-8467-e960675a22bb",
+    "name": "Grek",
+    "nameRu": "Грек",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d205-7119-8fd6-3a5ddc69b110",
+    "name": "Grisha Selpo",
+    "nameRu": "Гриша Сельпо",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d1f2-731b-9d5f-1e7f260ff134",
+    "name": "Grishkovets",
+    "nameRu": "Гришковец",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2b1-7278-a5af-aae410c53291",
+    "name": "Gurev \"Lady\" Nikolay",
+    "nameRu": "Гурев \"Барышня\" Николай",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d22e-7258-86c6-5924d3434f65",
+    "name": "Hatter",
+    "nameRu": "Шляпник",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d1d8-7286-9073-e0a34cc5a2ad",
+    "name": "Hermit Timokha",
+    "nameRu": "Отшельник Тимоха",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d260-7217-92ec-05c5b343e2fc",
+    "name": "Hilltop Village Storekeeper",
+    "nameRu": "Кладовщик Деревни на холме",
+    "profession": "Hilltop Village Storekeeper",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d1e8-7380-ba89-cac5af0fda17",
+    "name": "Huntsman",
+    "nameRu": "Ловчий",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2cc-728a-a608-31f630398ca0",
+    "name": "Ilya",
+    "nameRu": "Илья",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d209-725a-93d6-e87b0cfb3d04",
+    "name": "Imyarek",
+    "nameRu": "Имярек",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d29c-719c-9736-85a7dbb496aa",
+    "name": "Intendant",
+    "nameRu": "Интендант",
+    "profession": "Club Security",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d24f-7284-ae8a-7aa878b16d78",
+    "name": "Intern Petya",
+    "nameRu": "Стажёр Петя",
+    "profession": "Doctor",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d20f-70d0-9510-e872db83f04b",
+    "name": "Investigator",
+    "nameRu": "Следователь",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d32e-72e3-9d4a-6e0c42f7466c",
+    "name": "Ippolit",
+    "nameRu": "Ипполит",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d2d5-7157-893c-cbf3c5fd06e1",
+    "name": "Iscariot",
+    "nameRu": "Искариот",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1d7-70d6-98d5-64cd9f0105c5",
+    "name": "Ivan \"Hell\"",
+    "nameRu": "Иван \"Ад\"",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d27f-71ef-aacc-9233b2da24c9",
+    "name": "Ivan Prilukov",
+    "nameRu": "Иван Прилуков",
+    "profession": null,
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d1da-70ca-9b6b-2b5507c234fc",
+    "name": "Jean Bratovski",
+    "nameRu": "Жан Братовски",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d265-7122-a4cd-99a7265deabb",
+    "name": "Johnny",
+    "nameRu": "Джонни",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d2b5-71c5-bedf-2dd4c8e13552",
+    "name": "Kalchanov \"Regs\" Dmitry",
+    "nameRu": "Калчанов \"Устав\" Дмитрий",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d1f8-7085-8754-4eb61e3dfb2f",
+    "name": "Kapyushon",
+    "nameRu": "Капюшон",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d1f6-7398-acda-e28762149500",
+    "name": "Karl",
+    "nameRu": "Карл",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d1e4-71ed-a46a-cac62b7344a2",
+    "name": "Kashtan",
+    "nameRu": "Каштан",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d256-7081-8aec-e7d9378192e4",
+    "name": "Kazakov",
+    "nameRu": "Казаков",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d290-7083-9d0c-b572b553f256",
+    "name": "Khalera",
+    "nameRu": "Халера",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d247-7008-b1ab-074ad6e7807f",
+    "name": "Khimik",
+    "nameRu": "Химик",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d251-7060-8518-fc5f4452e101",
+    "name": "Khitrets",
+    "nameRu": "Хитрец",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d26b-72c5-a3b0-488f6babdee6",
+    "name": "Khitrovan",
+    "nameRu": "Хитрован",
+    "profession": "[City N] Storekeeper",
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d22d-71f0-9e96-0e722a1ab315",
+    "name": "Khmyr",
+    "nameRu": "Хмырь",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d23e-70dd-93da-3b69e83ab718",
+    "name": "Khristoforych",
+    "nameRu": "Христофорыч",
+    "profession": "Doctor",
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d235-7044-9df4-779dec2caf31",
+    "name": "Khromtsov",
+    "nameRu": "Хромцов",
+    "profession": "Foreman from the Prison.",
+    "locationId": "01a038c9-b721-7108-a2ec-04bfac5caccc"
+  },
+  {
+    "id": "01a038c9-d27b-73ed-8719-003d2a1d885d",
+    "name": "Khvoshch",
+    "nameRu": "Хвощ",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d1ed-70c1-b536-c5669687fdf0",
+    "name": "Kich",
+    "nameRu": "Кич",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d32d-739d-a466-483f23611a3d",
+    "name": "Kipling",
+    "nameRu": "Киплинг",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d319-7332-9e8c-6d8c784f6681",
+    "name": "Klyonsky",
+    "nameRu": "Клёнский",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d331-72eb-a41b-de70cbefc398",
+    "name": "Kolesnikov",
+    "nameRu": "Колесников",
+    "profession": null,
+    "locationId": "01a038c9-b726-7170-bb5c-a26a9655ae46"
+  },
+  {
+    "id": "01a038c9-d27a-7023-bcd7-a1b2ce49f617",
+    "name": "Kolya Baranka",
+    "nameRu": "Коля Баранка",
+    "profession": "Driver",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d214-7168-b796-8a388c877d7f",
+    "name": "Kolya Barsuk",
+    "nameRu": "Коля Барсук",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d1cb-729b-8c6e-97daccabb78e",
+    "name": "Kolya Kisly",
+    "nameRu": "Коля Кислый",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d215-71a9-a622-af656633ec14",
+    "name": "Kolya Tesla",
+    "nameRu": "Коля Тесла",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d294-733a-8f99-9050dc705adb",
+    "name": "Kopalka",
+    "nameRu": "Копалка",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d2c1-729d-a85e-3fe5daad8916",
+    "name": "Kornishon",
+    "nameRu": "Корнишон",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d1d1-72e8-a09e-e2f09abd1170",
+    "name": "Korobochka",
+    "nameRu": "Коробочка",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d254-7177-bedb-44c976e38a0c",
+    "name": "Kosmaty",
+    "nameRu": "Косматый",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d21d-70e6-9b1e-f376c0b56f58",
+    "name": "Kostya Apostol",
+    "nameRu": "Костя Апостол",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d2a3-73bc-a081-7aa22c00b0a2",
+    "name": "Kostya Mazay",
+    "nameRu": "Костя Мазай",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d1cf-7207-88d4-8a7710fd954c",
+    "name": "Krendel",
+    "nameRu": "Крендель",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d32e-72e3-9d4a-6e0c433676d7",
+    "name": "Krokodil",
+    "nameRu": "Крокодил",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d1d0-73d1-ad2f-5aa696bc8849",
+    "name": "Krol",
+    "nameRu": "Крол",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d28c-7054-b825-be8d5facbfaf",
+    "name": "Kuritsa",
+    "nameRu": "Курица",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d25d-728b-818f-b5aea40a2d94",
+    "name": "Lab Assistant Mantsevich",
+    "nameRu": "Лаборант Манцевич",
+    "profession": "[\"Aegis\"] Storekeeper",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2bf-723a-869d-003474afc6a0",
+    "name": "Lapot",
+    "nameRu": "Лапоть",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d211-70bb-912b-97de0e3178ec",
+    "name": "Leatherstocking",
+    "nameRu": "Кожаный чулок",
+    "profession": "Guide",
+    "locationId": "01a038c9-b720-72dd-830b-c6340753800f"
+  },
+  {
+    "id": "01a038c9-d1f9-70e3-bd4e-5b6bd413cc26",
+    "name": "Leonid Kesarevich",
+    "nameRu": "Леонид Кесаревич",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d230-72cc-bcfe-0d88aea5e455",
+    "name": "Leshich",
+    "nameRu": "Лешич",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c6340753800f"
+  },
+  {
+    "id": "01a038c9-d1e1-70d5-85d0-75a1e38cb228",
+    "name": "Lev Valerianovich",
+    "nameRu": "Лев Валерианович",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d2d7-704e-ab3d-27d7293e4935",
+    "name": "Leviathan",
+    "nameRu": "Левиафан",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2d8-7184-8397-35307a16ffa9",
+    "name": "Lieutenant Burda",
+    "nameRu": "Лейтенант Бурда",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d249-714b-87fc-98f470008366",
+    "name": "Lineman",
+    "nameRu": "Монтер",
+    "profession": "Technician",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d219-7212-9d3e-8a080cfc6277",
+    "name": "Litan Selektevich",
+    "nameRu": "Литан Селектевич",
+    "profession": null,
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d1f1-7320-a0ea-8b9d1acd691f",
+    "name": "Litovsky",
+    "nameRu": "Литовский",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d31a-70d0-b5a5-637aaf493471",
+    "name": "Local Trader",
+    "nameRu": "Местный торговец",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d2db-73c2-945e-d631e0277b86",
+    "name": "Los",
+    "nameRu": "Лось",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d318-7312-99fb-12c92b493487",
+    "name": "Luger",
+    "nameRu": "Люгер",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d240-7353-9c25-06f5f01cfc0a",
+    "name": "Lyokha the Fellow Traveler",
+    "nameRu": "Леха Попутчик",
+    "profession": "Guide",
+    "locationId": "01a038c9-b720-72dd-830b-c6340753800f"
+  },
+  {
+    "id": "01a038c9-d2d4-7231-8cef-67d768263ad5",
+    "name": "Lyonya",
+    "nameRu": "Лёня",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1db-73fc-8c91-6c1ed196e2b5",
+    "name": "Lysy",
+    "nameRu": "Лысый",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d1dd-71f2-8627-6468d0fd13bd",
+    "name": "Maksim Anatolich",
+    "nameRu": "Максим Анатолич",
+    "profession": "Technician",
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d243-7344-9dde-a3b198ad9c01",
+    "name": "Marat Uganda",
+    "nameRu": "Марат Уганда",
+    "profession": "Gunsmith",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2cd-7117-ad3f-5c55e121dc1d",
+    "name": "Mario",
+    "nameRu": "Марио",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1de-73de-a76b-55788e9f839b",
+    "name": "Mark",
+    "nameRu": "Марк",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d26d-7228-839e-9c0eab374691",
+    "name": "Matroskin",
+    "nameRu": "Матроскин",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d221-73eb-89eb-1578d62f6fe5",
+    "name": "Medved",
+    "nameRu": "Медвед",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d257-7048-811c-e195f8937a09",
+    "name": "Mikha Kruglov",
+    "nameRu": "Миха Круглов",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d242-73f5-b6b4-d71a5cb0e222",
+    "name": "Mikhalych Chelyabinsky",
+    "nameRu": "Михалыч Челябинский",
+    "profession": "Technician",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d25e-7344-976c-79fbbc6063d2",
+    "name": "Miklukho Maklay",
+    "nameRu": "Миклухо Маклай",
+    "profession": "[Radius Settlement] Storekeeper",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d1f3-72a9-80bd-af875af73ca8",
+    "name": "Mikulo",
+    "nameRu": "Микуло",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d324-7123-bf35-6985c8d925e1",
+    "name": "Military Doctor Zabotkin",
+    "nameRu": "Военврач Заботкин",
+    "profession": "Doctor",
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d269-7020-ad6b-5fed78c90248",
+    "name": "Milliner",
+    "nameRu": "Болванщик",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d1c9-731f-8c31-463e1a47a518",
+    "name": "Misha Kochegarov",
+    "nameRu": "Миша Кочегаров",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d31f-721b-8423-9daa5bedd165",
+    "name": "Misha Kochegarov (Lesnaya)",
+    "nameRu": "Миша Кочегаров (Лесная)",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d250-728d-b421-647d01def07f",
+    "name": "Misha the Hunter",
+    "nameRu": "Миша Охотник",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d218-73a4-9060-efda93d8d9e2",
+    "name": "Mitka",
+    "nameRu": "Митька",
+    "profession": "Technician",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d1ff-72bf-b607-a783e2ae14b6",
+    "name": "Mitka Nishtyak",
+    "nameRu": "Митька Ништяк",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d2af-73f0-ac83-0147c8f09758",
+    "name": "Mitrich",
+    "nameRu": "Митрич",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d1e9-703a-9560-86d35ed535c1",
+    "name": "Mitrofan",
+    "nameRu": "Митрофан",
+    "profession": "Barman",
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d22a-7087-ae37-522f445b5b17",
+    "name": "Mokrukh",
+    "nameRu": "Мокрух",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d259-7133-b074-721fd81a5a95",
+    "name": "Money Changer",
+    "nameRu": "Меняла",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d2a6-7363-a4c0-572c83f5cc3d",
+    "name": "Monro",
+    "nameRu": "Монро",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d20e-71ca-a624-73b9655147df",
+    "name": "Morozov",
+    "nameRu": "Морозов",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d21b-735f-88cb-ec76629cef42",
+    "name": "Morze",
+    "nameRu": "Морзе",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d291-70a5-a93b-6689f9151f8e",
+    "name": "Mujahed",
+    "nameRu": "Маджахед",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d1eb-7366-9156-6b06681534f4",
+    "name": "Mukhomor",
+    "nameRu": "Мухомор",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d1fa-7276-a526-a815278661c8",
+    "name": "Mykola Afanasich",
+    "nameRu": "Мыкола Афанасьич",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d201-7016-b3c8-1820aad6701e",
+    "name": "Navigator Lukashin",
+    "nameRu": "Штурман Лукашин",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d296-727a-874b-85ced6cb1dcd",
+    "name": "Nemestny",
+    "nameRu": "Неместный",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d20e-71ca-a624-73b9648852b2",
+    "name": "Nicheporenko",
+    "nameRu": "Ничепоренко",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2cf-70d9-9237-8399f6f20219",
+    "name": "Nikita Sergeevich",
+    "nameRu": "Никита Сергеевич",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d204-7379-9f34-4dcf70a15923",
+    "name": "Nikolay Mirny",
+    "nameRu": "Николай Мирный",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d321-7235-a5a3-c5ec481781c4",
+    "name": "Novikovo Bus Station Storekeeper",
+    "nameRu": "Кладовщик Автостанции Новиково",
+    "profession": "Novikov Bus Station Storekeeper",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d28b-71cc-8c5c-0a90ee3e22ae",
+    "name": "Oleg (Lyubech Outskirts)",
+    "nameRu": "Олег (Окрестности Любеча)",
+    "profession": "Auctioneer",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d328-715c-9367-3c315d088460",
+    "name": "Oleg (Vesuvius)",
+    "nameRu": "Олег (Везувий)",
+    "profession": "Auctioneer",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d332-7096-9ded-a5ea3810cfbd",
+    "name": "One-Oh-Two",
+    "nameRu": "Сто-второй",
+    "profession": null,
+    "locationId": "01a038c9-b726-7170-bb5c-a26a9655ae46"
+  },
+  {
+    "id": "01a038c9-d317-7090-8824-b1d91c9264f9",
+    "name": "Ostap",
+    "nameRu": "Остап",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d1e2-7034-a82a-4171b95bd42e",
+    "name": "Palka",
+    "nameRu": "Палка",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d2a6-7363-a4c0-572c832d2b86",
+    "name": "Palych",
+    "nameRu": "Палыч",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2a3-73bc-a081-7aa22b901e64",
+    "name": "Panych",
+    "nameRu": "Паныч",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d23f-73c6-88c4-5ca6b299514a",
+    "name": "Paramedic",
+    "nameRu": "Фельдшер",
+    "profession": "Doctor",
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d227-7073-8307-a5b5a051082d",
+    "name": "Pashtet",
+    "nameRu": "Паштет",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d258-73f3-82cd-821a0fcc7e44",
+    "name": "Passazhir",
+    "nameRu": "Пассажир",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d31e-7254-a3a9-20ed7928111e",
+    "name": "Pathfinder from the Station",
+    "nameRu": "Следопыт со станции",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d212-71e9-ba76-c9944c4bc507",
+    "name": "Patisson",
+    "nameRu": "Патиссон",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1f0-7120-89e3-d4d961bc423b",
+    "name": "Paul Bratovski",
+    "nameRu": "Поль Братовски",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d249-714b-87fc-98f470ca163a",
+    "name": "Pavel Petrovich",
+    "nameRu": "Павел Петрович",
+    "profession": "Gunsmith",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d1cb-729b-8c6e-97dacd6d577a",
+    "name": "Pechkin",
+    "nameRu": "Печкин",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d24b-729a-850b-e52c55ff57a9",
+    "name": "Petrovich",
+    "nameRu": "Петрович",
+    "profession": "Technician",
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d26c-7109-8a6e-4ae85e72dc7f",
+    "name": "Petya Gorky",
+    "nameRu": "Петя Горький",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d1f1-7320-a0ea-8b9d1aa4001e",
+    "name": "Petya the Guide",
+    "nameRu": "Петя Гид",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d22a-7087-ae37-522f44ff2d8b",
+    "name": "Pioneer",
+    "nameRu": "Пионер",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d21b-735f-88cb-ec7662518e21",
+    "name": "Pivovarov",
+    "nameRu": "Пивоваров",
+    "profession": "Barman",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d217-7296-8edf-d86d20d3023b",
+    "name": "Plevok",
+    "nameRu": "Плевок",
+    "profession": null,
+    "locationId": "01a038c9-b71f-7389-b005-51f87362048b"
+  },
+  {
+    "id": "01a038c9-d207-7039-8a20-b56e5e6718b2",
+    "name": "Plyushch",
+    "nameRu": "Плющ",
+    "profession": "Barman",
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d27d-7222-884e-2b59de32fbe3",
+    "name": "Pobegaylo",
+    "nameRu": "Побегайло",
+    "profession": "Docent",
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d26b-72c5-a3b0-488f6b60cf3e",
+    "name": "Pokhomych",
+    "nameRu": "Похомыч",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d1ee-73cb-b66b-7ba6a8a25141",
+    "name": "Pop",
+    "nameRu": "Поп",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2b0-701e-ae14-fa993663b701",
+    "name": "Popov",
+    "nameRu": "Попов",
+    "profession": "Doctor",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d267-70ca-bfe5-ae79f4eb45a9",
+    "name": "Potashev",
+    "nameRu": "Поташев",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d263-73f4-bdb9-a37293acdfa7",
+    "name": "Prapor",
+    "nameRu": "Прапор",
+    "profession": "Buyer",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d2aa-72a9-a204-650352d6b3b8",
+    "name": "Private Semashko",
+    "nameRu": "Рядовой Семашко",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d234-7347-ab62-2c2e58d3c41c",
+    "name": "Private Serov",
+    "nameRu": "Рядовой Серов",
+    "profession": null,
+    "locationId": "01a038c9-b721-7108-a2ec-04bfac5caccc"
+  },
+  {
+    "id": "01a038c9-d2ad-707b-b2bf-85925709a005",
+    "name": "Private Vodovozov",
+    "nameRu": "Рядовой Водовозов",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d1d9-7387-902f-16a3c0fa3f05",
+    "name": "Professor Chereshnikov",
+    "nameRu": "Профессор Черешников",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d31b-7137-be32-2c8c5bcde874",
+    "name": "Professor Pillman",
+    "nameRu": "Профессор Пильман",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d1ed-70c1-b536-c56696a3ab18",
+    "name": "Professor Shleymovich",
+    "nameRu": "Профессор Шлеймович",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d1ca-704e-806b-05c705527b46",
+    "name": "Prokhor the Trackman",
+    "nameRu": "Прохор Путейщик",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d321-7235-a5a3-c5ec48a476cd",
+    "name": "Prutik",
+    "nameRu": "Прутик",
+    "profession": "Combat Rat",
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d27e-700e-9aa0-47f0d0573fa9",
+    "name": "Pryanikov",
+    "nameRu": "Пряников",
+    "profession": null,
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d23c-7213-a10f-3bf11c4b6a46",
+    "name": "Pushkin",
+    "nameRu": "Пушкин",
+    "profession": "Gunsmith",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d282-711a-bbfe-c7fdde0d8c10",
+    "name": "Pyotr",
+    "nameRu": "Пётр",
+    "profession": null,
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d32f-701e-84ff-fa71fc6a3796",
+    "name": "Pyotr Rumenyatsev",
+    "nameRu": "Пётр Руменяцев",
+    "profession": "Club Security",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2e4-73e4-9b9e-c4256f9ddad9",
+    "name": "Quarry Storekeeper",
+    "nameRu": "Кладовщик Карьера",
+    "profession": "Quarry Storekeeper",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d264-713b-9d4d-e89521af1783",
+    "name": "Quartermaster Polishchuk",
+    "nameRu": "Завхоз Полищук",
+    "profession": "Buyer",
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d1d9-7387-902f-16a3c0e868fc",
+    "name": "Radik",
+    "nameRu": "Радик",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1e6-70dd-a714-06dea73fdbea",
+    "name": "Rashid",
+    "nameRu": "Рашид",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d268-72be-a3d4-238b392726c6",
+    "name": "Razboynikov",
+    "nameRu": "Разбойников",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d32a-72ac-b5db-566da444d88d",
+    "name": "Refa",
+    "nameRu": "Рефа",
+    "profession": "Universal Craftsman",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d201-7016-b3c8-1820aae8221d",
+    "name": "Retired Colonel",
+    "nameRu": "Отставной Полковник",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d207-7039-8a20-b56e5dd9afb0",
+    "name": "Robbed Stalker",
+    "nameRu": "Обворованный сталкер",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d21f-7276-9d59-67ddac9d1851",
+    "name": "Robot Valentin",
+    "nameRu": "Робот Валентин",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d2d0-7380-bbd0-69aff701c12f",
+    "name": "Rodion",
+    "nameRu": "Родион",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1fc-731d-ad84-29f2e9ab772d",
+    "name": "Roma Sibiryak",
+    "nameRu": "Рома Сибиряк",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d2d1-7151-b1aa-cbdf0b3264d9",
+    "name": "Romych",
+    "nameRu": "Ромыч",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2b4-700c-9b6f-fef39c1878c6",
+    "name": "Rum-Rum",
+    "nameRu": "Рум-Рум",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2d3-7195-8217-dbfa2058a96e",
+    "name": "Ruvik",
+    "nameRu": "Рувик",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1fd-7376-919b-8888062b012e",
+    "name": "Ryzhy",
+    "nameRu": "Рыжий",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d22d-71f0-9e96-0e722ab6be81",
+    "name": "Sad Stalker",
+    "nameRu": "Печальный сталкер",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c6340753800f"
+  },
+  {
+    "id": "01a038c9-d24e-718a-870d-d5d026b2729d",
+    "name": "Samostrel",
+    "nameRu": "Самострел",
+    "profession": "Gunsmith",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d280-719f-a14f-3957b3519387",
+    "name": "Samoyed",
+    "nameRu": "Самоед",
+    "profession": null,
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d1f7-728d-8828-807ea92fa95f",
+    "name": "Sanya the Tailor",
+    "nameRu": "Саня Портной",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d1e7-73f6-bcdf-994f9b982319",
+    "name": "Sanyok Byvaly",
+    "nameRu": "Санек Бывалый",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d2b7-7016-b193-62d7bddc65df",
+    "name": "Sapelnikov \"Volt\" Grigory",
+    "nameRu": "Сапельников \"Вольт\" Григорий",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2ba-7246-a295-f46e73121009",
+    "name": "Savva Garadze",
+    "nameRu": "Савва Гарадзэ",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d277-71f4-8634-715d08203db4",
+    "name": "Savva Kochetkov",
+    "nameRu": "Савва Кочетков",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d245-72d3-b624-87ce3cda5612",
+    "name": "Semyon Shiva",
+    "nameRu": "Семён Шива",
+    "profession": "Tailor",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d237-7193-a389-7570b5aa02c0",
+    "name": "Senka Spaghetti",
+    "nameRu": "Сенька Спагетти",
+    "profession": "Well-known dealer from the Prison.",
+    "locationId": "01a038c9-b721-7108-a2ec-04bfac5caccc"
+  },
+  {
+    "id": "01a038c9-d24c-73d1-a897-f9a9bab447d4",
+    "name": "Senya Sapozhnikov",
+    "nameRu": "Сеня Сапожников",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d208-706a-801d-d00e948ac360",
+    "name": "Sergeant Gorely",
+    "nameRu": "Сержант Горелый",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d236-7399-9d83-668fc3cd1cb8",
+    "name": "Sergeant Kozhemyaka",
+    "nameRu": "Сержант Кожемяка",
+    "profession": null,
+    "locationId": "01a038c9-b721-7108-a2ec-04bfac5caccc"
+  },
+  {
+    "id": "01a038c9-d1f5-7365-8f63-d0d5e72aa652",
+    "name": "Sergunya",
+    "nameRu": "Сергуня",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d20c-71f3-ac61-cf4dfa94a644",
+    "name": "Sery",
+    "nameRu": "Серый",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d25a-70a3-9664-0ba4736d2a6c",
+    "name": "Seryoga Chelnok",
+    "nameRu": "Серёга Челнок",
+    "profession": "[Gourmet's Kitchen] Storekeeper",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d238-7119-880b-577868ecb756",
+    "name": "Serzh",
+    "nameRu": "Серж",
+    "profession": "Gunsmith",
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d1fa-7276-a526-a81526d8555a",
+    "name": "Shepelev",
+    "nameRu": "Шепелев",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d333-71cd-9668-0efbebf8753f",
+    "name": "Shestoy",
+    "nameRu": "Шестой",
+    "profession": null,
+    "locationId": "01a038c9-b726-7170-bb5c-a26a9655ae46"
+  },
+  {
+    "id": "01a038c9-d1eb-7366-9156-6b0667cba751",
+    "name": "Shkurnik",
+    "nameRu": "Шкурник",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d23b-7153-a36a-edd3c138ee97",
+    "name": "Shpilka",
+    "nameRu": "Шпилька",
+    "profession": "Tailor",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1e5-7362-88b3-e255680993b9",
+    "name": "Shtaket",
+    "nameRu": "Штакет",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d203-7040-9ae4-8d050eb1f833",
+    "name": "Shtopor",
+    "nameRu": "Штопор",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d24b-729a-850b-e52c5583c4aa",
+    "name": "Shukher",
+    "nameRu": "Шухер",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d319-7332-9e8c-6d8c77a11a1f",
+    "name": "Shveyk",
+    "nameRu": "Швейк",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d228-7286-bd2b-a3de8445ef6b",
+    "name": "Sifa",
+    "nameRu": "Сифа",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d2cc-728a-a608-31f62fc6e015",
+    "name": "Simurg",
+    "nameRu": "Симург",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1f4-726f-895f-ee441f51fce8",
+    "name": "Sizif",
+    "nameRu": "Сизиф",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d27c-7236-8281-36462b1ed310",
+    "name": "Skvornik",
+    "nameRu": "Скворник",
+    "profession": null,
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d31d-71d3-a09a-5430fe0c4c5a",
+    "name": "Smolin",
+    "nameRu": "Смолин",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d2d3-7195-8217-dbfa1f6da659",
+    "name": "Snake",
+    "nameRu": "Снэйк",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d253-7178-899a-d74052ea6f2c",
+    "name": "Snickers",
+    "nameRu": "Сникерс",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71f-7389-b005-51f87362048b"
+  },
+  {
+    "id": "01a038c9-d299-701b-a6d3-a6560731373c",
+    "name": "Snow Trader",
+    "nameRu": "Торговец снегом",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d295-72a9-a205-a658281d7e25",
+    "name": "Some Bum",
+    "nameRu": "Какой-то бомж",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d2b6-736d-bc8b-b2ee7d181867",
+    "name": "Somnov Radik",
+    "nameRu": "Сомнов Радик",
+    "profession": "[Krasnoye] Storekeeper",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d31c-7021-921d-d8a2803bd150",
+    "name": "Spektr",
+    "nameRu": "Спектр",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d23d-7305-8c17-bbc5cbef558f",
+    "name": "Sport",
+    "nameRu": "Спорт",
+    "profession": "Tailor",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d32c-7038-a6b5-4ebabd1a639b",
+    "name": "Squad Storekeeper",
+    "nameRu": "Кладовщик отряда",
+    "profession": "[Ataman's Camp] Storekeeper",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d284-71bf-bbd2-cf6b11806d37",
+    "name": "Stalker Guide",
+    "nameRu": "Сталкер Проводник",
+    "profession": null,
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a2ea5b67"
+  },
+  {
+    "id": "01a038c9-d2b4-700c-9b6f-fef39b51197f",
+    "name": "Starodubov",
+    "nameRu": "Стародубов",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2b8-722c-9046-c3e311b966e4",
+    "name": "Stas Kachinsky",
+    "nameRu": "Стас Качинский",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2ce-721f-82cc-063a1a633370",
+    "name": "Steel Boss",
+    "nameRu": "Стальной Начальник",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2b8-722c-9046-c3e311d96d0e",
+    "name": "Stepan \"Phase\" Gromyko",
+    "nameRu": "Степан \"Фаза\" Громыко",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d1e9-703a-9560-86d35f0fcf79",
+    "name": "Stepan Brodyaga",
+    "nameRu": "Степан Бродяга",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d2af-73f0-ac83-0147c9c7373a",
+    "name": "Stepan Dedko",
+    "nameRu": "Степан Дедько",
+    "profession": "[Usov] Storekeeper",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d239-7044-9b66-32a8eb2459e3",
+    "name": "Stepanenko",
+    "nameRu": "Степаненко",
+    "profession": "Lab Assistant",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d292-70a1-be04-dc4a2fca4ecc",
+    "name": "Strashina",
+    "nameRu": "Страшина",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d25b-710a-9592-98da89f91d77",
+    "name": "Strogach",
+    "nameRu": "Строгач",
+    "profession": "[Swamp Folk] Storekeeper",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2bc-700c-9262-f0637054cb7b",
+    "name": "Stygian",
+    "nameRu": "Стигиец",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d297-7023-ae99-d16993f7ce07",
+    "name": "Styopa Elektrichkin",
+    "nameRu": "Степа Электричкин",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d2dd-71f5-bb37-4652038fd4d8",
+    "name": "Substation Storekeeper",
+    "nameRu": "Кладовщик Подстанции",
+    "profession": "Substation Storekeeper",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d237-7193-a389-7570b63dd2ff",
+    "name": "Sukhar",
+    "nameRu": "Сухарь",
+    "profession": null,
+    "locationId": "01a038c9-b721-7108-a2ec-04bfac5caccc"
+  },
+  {
+    "id": "01a038c9-d2b6-736d-bc8b-b2ee7db0b71c",
+    "name": "Sumkin \"Tally\" Dmitry",
+    "nameRu": "Сумкин \"Учет\" Дмитрий",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2c0-7165-b1aa-9928c8e06771",
+    "name": "Susl",
+    "nameRu": "Сусл",
+    "profession": "[Military Town] Storekeeper",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d21d-70e6-9b1e-f376c061b01d",
+    "name": "Svekolny",
+    "nameRu": "Свекольный",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d25b-710a-9592-98da89559bae",
+    "name": "Syoma Levak",
+    "nameRu": "Сёма Левак",
+    "profession": "[Imyarek Post] Storekeeper",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d1d2-712e-8afb-c5a28b4a32ea",
+    "name": "Tackleberry",
+    "nameRu": "Тэклберри",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d216-7191-95e3-954961006301",
+    "name": "Tagir Sherkhan",
+    "nameRu": "Тагир Шерхан",
+    "profession": null,
+    "locationId": "01a038c9-b722-730b-bfeb-3e662f68f195"
+  },
+  {
+    "id": "01a038c9-d231-71bf-9546-0e04226752e9",
+    "name": "Talking Soothsayer in a Cage",
+    "nameRu": "Говорящий ведун в клетке",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c6340753800f"
+  },
+  {
+    "id": "01a038c9-d1ea-7143-9553-34ff91badead",
+    "name": "Tatarin",
+    "nameRu": "Татарин",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d21a-7365-9ed0-7f51e6cdcccc",
+    "name": "Tavr",
+    "nameRu": "Тавр",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c6340753800f"
+  },
+  {
+    "id": "01a038c9-d323-7297-93ea-5ef859dd63a2",
+    "name": "Technician",
+    "nameRu": "Техник",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d242-73f5-b6b4-d71a5cd53370",
+    "name": "Thimblerigger",
+    "nameRu": "Напёрсточник",
+    "profession": "Tailor",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2d1-7151-b1aa-cbdf0baa8093",
+    "name": "Tikhon",
+    "nameRu": "Тихон",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d209-725a-93d6-e87b0ca841be",
+    "name": "Timka",
+    "nameRu": "Тимка",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2ad-707b-b2bf-85925733a62a",
+    "name": "Tokha the Carter",
+    "nameRu": "Тоха Извозчик",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d233-730d-bfe1-23acf52c3ec9",
+    "name": "Tolkach",
+    "nameRu": "Толкач",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d25f-705b-bdc4-a3c2d34c2e9c",
+    "name": "Tunguska Base Storekeeper",
+    "nameRu": "Кладовщик базы на Тунгуске",
+    "profession": "Tunguska Base Storekeeper",
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d27d-7222-884e-2b59de4f7072",
+    "name": "Udmurt",
+    "nameRu": "Удмурт",
+    "profession": null,
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d2d9-70d2-bb37-5681d48c6b6c",
+    "name": "Ugryum",
+    "nameRu": "Угрюм",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d2da-733d-ab89-893035d9d1f7",
+    "name": "Uncle Tolya",
+    "nameRu": "Дядя Толя",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d1f8-7085-8754-4eb61dc971eb",
+    "name": "Vadim Stupka",
+    "nameRu": "Вадим Ступка",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d293-703f-9886-7c51a9397e99",
+    "name": "Vakhid",
+    "nameRu": "Вахид",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d2ba-7246-a295-f46e7257b61e",
+    "name": "Valday",
+    "nameRu": "Валдай",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d1df-713c-ad7b-7fa3a8c627a5",
+    "name": "Valentin",
+    "nameRu": "Валентин",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d26e-71f2-87c5-3a2eda816939",
+    "name": "Valera",
+    "nameRu": "Валера",
+    "profession": "Technician",
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d2a8-70a9-b214-0be6a1098e77",
+    "name": "Vancouver",
+    "nameRu": "Ванкувер",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d226-703a-b1b2-59f718a64a32",
+    "name": "Vasek Tyorty",
+    "nameRu": "Васек Тертый",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d24a-73f5-9ef7-74af1c4682af",
+    "name": "Vasily Pylnov",
+    "nameRu": "Василий Пыльнов",
+    "profession": "Lab Assistant",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d1cd-72bd-9af5-c000d7bf2dbb",
+    "name": "Vasyatka",
+    "nameRu": "Васятка",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d20c-71f3-ac61-cf4dfb26f0a1",
+    "name": "Vatman",
+    "nameRu": "Ватман",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1dd-71f2-8627-6468d0869aa0",
+    "name": "Vatslavich",
+    "nameRu": "Вацлавич",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d247-7008-b1ab-074ad79183aa",
+    "name": "Vendor",
+    "nameRu": "Вендор",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2ac-710f-8a16-2533e1a0d730",
+    "name": "Venya",
+    "nameRu": "Веня",
+    "profession": "[Plevok's Office] Storekeeper",
+    "locationId": "01a038c9-b71f-7389-b005-51f87362048b"
+  },
+  {
+    "id": "01a038c9-d32c-7038-a6b5-4ebabcb4d6c1",
+    "name": "Vereteno",
+    "nameRu": "Веретено",
+    "profession": "Gunsmith",
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  },
+  {
+    "id": "01a038c9-d1ce-705a-bed1-61121126aa30",
+    "name": "Veterinarian",
+    "nameRu": "Ветеринар",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d1fb-7311-9fbb-d958d8e74412",
+    "name": "Vetrichenko",
+    "nameRu": "Ветриченко",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d259-7133-b074-721fd85e30da",
+    "name": "Viktor Serebryakov",
+    "nameRu": "Виктор Серебряков",
+    "profession": "[SOYUZ] Storekeeper",
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d325-7047-b1b6-7c87cf87e1fb",
+    "name": "Vitya Gambit",
+    "nameRu": "Витя Гамбит",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d229-7094-a913-3e3d0b6f4f71",
+    "name": "Vityok",
+    "nameRu": "Витёк",
+    "profession": null,
+    "locationId": "01a038c9-b71f-7389-b005-51f87362048b"
+  },
+  {
+    "id": "01a038c9-d23d-7305-8c17-bbc5cc66b27b",
+    "name": "Vlad Pyzh",
+    "nameRu": "Влад Пыж",
+    "profession": "Gunsmith",
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3612599"
+  },
+  {
+    "id": "01a038c9-d285-7031-a81a-b0f2ca13f330",
+    "name": "Vladimir Ilyich",
+    "nameRu": "Владимир Ильич",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d257-7048-811c-e195f9851820",
+    "name": "Voronin",
+    "nameRu": "Воронин",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d279-71a6-bb79-7e62c59cb619",
+    "name": "Vostrikov",
+    "nameRu": "Востриков",
+    "profession": "Guide",
+    "locationId": "01a038c9-b724-734f-8e56-bcb4a231a76d"
+  },
+  {
+    "id": "01a038c9-d206-7185-a64e-e74e3246504f",
+    "name": "Vova Zhaba",
+    "nameRu": "Вова Жаба",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d245-72d3-b624-87ce3da20c0c",
+    "name": "Vovchik Chingachgook",
+    "nameRu": "Вовчик Чингачгук",
+    "profession": "Gunsmith",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2d8-7184-8397-3530797af7de",
+    "name": "Vseyadny",
+    "nameRu": "Всеядный",
+    "profession": null,
+    "locationId": "01a038c9-b720-72dd-830b-c634079ab973"
+  },
+  {
+    "id": "01a038c9-d210-73dd-9bd5-73adcfc1dc04",
+    "name": "Vulf",
+    "nameRu": "Вульф",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996e7d6906"
+  },
+  {
+    "id": "01a038c9-d286-7212-99f2-5c73494cf85e",
+    "name": "Watchman",
+    "nameRu": "Сторож",
+    "profession": null,
+    "locationId": "01a038c9-b71b-72ca-8ff8-b6a5b3005336"
+  },
+  {
+    "id": "01a038c9-d23b-7153-a36a-edd3c227fe70",
+    "name": "Yakov Samuilovich",
+    "nameRu": "Яков Самуилович",
+    "profession": "Buyer",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d1ef-71f4-aed9-319520a363c4",
+    "name": "Yashka",
+    "nameRu": "Яшка",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d244-70a2-a886-1e4bfdb55671",
+    "name": "Yohan Krot",
+    "nameRu": "Йохан Крот",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d1e7-73f6-bcdf-994f9c7a6008",
+    "name": "Yura Barabashka",
+    "nameRu": "Юра Барабашка",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d2bd-73b4-9fd0-ca53771bc00a",
+    "name": "Zalipukha",
+    "nameRu": "Залипуха",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d1d3-700f-bd85-347882e5c7cf",
+    "name": "Zayats",
+    "nameRu": "Заяц",
+    "profession": null,
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d24e-718a-870d-d5d0277dcc48",
+    "name": "Zaytsev",
+    "nameRu": "Зайцев",
+    "profession": "Tailor",
+    "locationId": "01a038c9-b71c-73d3-8f1d-19091241e9c2"
+  },
+  {
+    "id": "01a038c9-d225-7297-b748-6d0c3bd6c166",
+    "name": "Zelenkin",
+    "nameRu": "Зеленкин",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2a8-70a9-b214-0be6a1c0bae1",
+    "name": "Zheka",
+    "nameRu": "Жека",
+    "profession": null,
+    "locationId": "01a038c9-b71e-7021-b4ef-3e996dae6410"
+  },
+  {
+    "id": "01a038c9-d2d5-7157-893c-cbf3c599fad9",
+    "name": "Zhnets",
+    "nameRu": "Жнец",
+    "profession": null,
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2ca-7214-a56a-eefa5371f38b",
+    "name": "Zolotov",
+    "nameRu": "Золотов",
+    "profession": "Guide",
+    "locationId": "01a038c9-b71d-704d-bbcf-3a9648112bf1"
+  },
+  {
+    "id": "01a038c9-d2b2-702b-995c-bda5f9ac36b4",
+    "name": "Zypin \"Bolt\" Vasily",
+    "nameRu": "Зыпин \"Затвор\" Василий",
+    "profession": null,
+    "locationId": "01a038c9-b725-7144-828b-1d165234e3af"
+  }
+]
