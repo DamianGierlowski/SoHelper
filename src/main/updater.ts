@@ -1,5 +1,5 @@
 import { app, BrowserWindow } from 'electron';
-import { autoUpdater } from 'electron-updater';
+import { autoUpdater, type NsisUpdater } from 'electron-updater';
 import type { UpdateEvent, UpdateStatus } from '../shared/types.mts';
 
 const CHECK_INTERVAL_MS = 6 * 60 * 60 * 1000;
@@ -24,7 +24,11 @@ export function setupUpdater(): void {
 
   // Pobieranie tylko na wyrazna zgode uzytkownika - nie zjadamy komus transferu.
   autoUpdater.autoDownload = false;
-  autoUpdater.autoInstallOnAppQuit = true;
+
+  // Instalacje odpalamy sami w installUpdate(). Wbudowany handler robilby to
+  // przez install(true, false), czyli bez ponownego uruchomienia aplikacji -
+  // a przycisk obiecuje "Restart and install".
+  autoUpdater.autoInstallOnAppQuit = false;
 
   autoUpdater.on('update-available', (info) => {
     broadcast({ type: 'available', version: info.version });
@@ -68,6 +72,26 @@ export async function downloadUpdate(): Promise<void> {
   await autoUpdater.downloadUpdate();
 }
 
+/**
+ * Instalator NSIS sprawdza, czy aplikacja dziala, zaraz po swoim starcie.
+ * `quitAndInstall()` odpala go PRZED zamknieciem aplikacji, wiec instalator
+ * zastaje wlasny proces macierzysty, probuje go ubic i po dwoch nieudanych
+ * podejsciach pokazuje "nie mozna zamknac aplikacji" z przyciskiem Ponow.
+ *
+ * Odwracamy kolejnosc: najpierw konczymy proces, instalator startuje dopiero
+ * z handlera 'quit', gdy nie ma juz czego zabijac.
+ */
 export function installUpdate(): void {
-  autoUpdater.quitAndInstall();
+  app.once('quit', () => {
+    // true = /S (po cichu, bez okien instalatora)
+    // true = --force-run (uruchom aplikacje po instalacji)
+    // autoUpdater jest typowany jako AppUpdater; install() zyje na NsisUpdaterze.
+    // Ta sciezka i tak dziala tylko na Windows, wiec rzutowanie jest uczciwe.
+    (autoUpdater as NsisUpdater).install(true, true);
+  });
+
+  // destroy() pomija handlery zamkniecia i od razu zwalnia procesy rendererow,
+  // zeby wyjscie nie przeciagalo sie ponad potrzebe.
+  for (const win of BrowserWindow.getAllWindows()) win.destroy();
+  app.quit();
 }
