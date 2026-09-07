@@ -28,10 +28,10 @@ mac:
   notarize: false
 
 win:
+  # Sam instalator. Windowsowy .zip byl zbedny - instalator sluzy i ludziom,
+  # i electron-updaterowi, a oszczedza ~146 MB uploadu na kazde wydanie.
   target:
     - target: nsis
-      arch: [x64]
-    - target: zip
       arch: [x64]
 
 nsis:
