@@ -41,11 +41,15 @@ Builds are unsigned, so Windows shows a SmartScreen warning the first time.
 ## Releases
 
 ```sh
-make bump                    # 0.0.1 -> 0.0.2 in package.json
-git commit -am "Release 0.0.2"
+make bump                    # 0.0.2 -> 0.0.3 in package.json
+git commit -am "Release 0.0.3"
+git push origin main         # the tag targets this commit, so it must be pushed
 make release                 # build Windows, upload all assets as a draft
-gh release edit v0.0.2 --draft=false -R DamianGierlowski/SoHelper
+gh release edit v0.0.3 --draft=false -R DamianGierlowski/SoHelper
 ```
+
+`make release` refuses to start if `HEAD` is not on `origin/main` — the release
+tag points at a specific commit, and GitHub cannot tag one it has never seen.
 
 The upload lands as a **draft**. Until it is published, `electron-updater`
 cannot see it. Bumping the version is not optional either — the updater
