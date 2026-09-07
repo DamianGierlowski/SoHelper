@@ -1,0 +1,28 @@
+{
+  "include": ["src/main/**/*", "src/preload/**/*", "src/shared/**/*", "scripts/**/*"],
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": ["ES2023"],
+    "types": ["node"],
+
+    // Vite bundluje main i preload, wiec rozwiazywanie modulow jak w bundlerze.
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+
+    // Node 24 tylko ZDEJMUJE typy z plikow .mts - nie umie ich kompilowac.
+    // To wymusza skladnie, ktora da sie wymazac (bez enum, namespace,
+    // parametrow-wlasciwosci), zeby `npm run test:db` chodzil bez builda.
+    "erasableSyntaxOnly": true,
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "skipLibCheck": true
+  }
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "abandoned-warehouse",
+    "name": "Abandoned Warehouse",
+    "nameRu": "Заброшенный склад",
+    "timezone": "05:00"
+  },
+  {
+    "id": "airport",
+    "name": "Airport",
+    "nameRu": "Аэропорт",
+    "timezone": "GMT +00:00"
+  },
+  {
+    "id": "black-forest",
+    "name": "Black Forest",
+    "nameRu": "Черный лес",
+    "timezone": "GMT +00:00"
+  },
+  {
+    "id": "caravan",
+    "name": "Caravan",
+    "nameRu": "Караван",
+    "timezone": "GMT +04:00"
+  },
+  {
+    "id": "city-n",
+    "name": "City N",
+    "nameRu": "Город N",
+    "timezone": "GMT +02:00"
+  },
+  {
+    "id": "great-cave",
+    "name": "Great Cave",
+    "nameRu": "Большая пещера",
+    "timezone": "GMT +00:00"
+  },
+  {
+    "id": "lesnaya-station",
+    "name": "Lesnaya Station",
+    "nameRu": "Станция \"Лесная\"",
+    "timezone": "GMT -02:00"
+  },
+  {
+    "id": "lyubech",
+    "name": "Lyubech",
+    "nameRu": "Любеч",
+    "timezone": "GMT +00:00"
+  },
+  {
+    "id": "lyubech-outskirts",
+    "name": "Lyubech Outskirts",
+    "nameRu": "Окрестности Любеча",
+    "timezone": "GMT +00:00"
+  },
+  {
+    "id": "novaya-zemlya-north-island",
+    "name": "Novaya Zemlya — North Island",
+    "nameRu": "Новая Земля о. Северный",
+    "timezone": "GMT -01:00"
+  },
+  {
+    "id": "novaya-zemlya-south-island",
+    "name": "Novaya Zemlya — South Island",
+    "nameRu": "Новая Земля о. Южный",
+    "timezone": "GMT -01:00"
+  },
+  {
+    "id": "prison",
+    "name": "Prison",
+    "nameRu": "Тюрьма",
+    "timezone": "GMT +03:00"
+  },
+  {
+    "id": "totems",
+    "name": "Totems",
+    "nameRu": "Тотемы",
+    "timezone": "GMT +00:00"
+  },
+  {
+    "id": "tunguska",
+    "name": "Tunguska",
+    "nameRu": "Тунгуска",
+    "timezone": "GMT +04:00"
+  },
+  {
+    "id": "uncharted-sector-of-the-zone",
+    "name": "Uncharted Sector of the Zone",
+    "nameRu": "Неизведанный участок Зоны",
+    "timezone": "08:00"
+  },
+  {
+    "id": "underground",
+    "name": "Underground",
+    "nameRu": "Подземелье",
+    "timezone": "GMT +00:00"
+  },
+  {
+    "id": "underground-n",
+    "name": "Underground N",
+    "nameRu": "Подземелье N",
+    "timezone": "GMT +02:00"
+  },
+  {
+    "id": "vesuvius",
+    "name": "Vesuvius",
+    "nameRu": "Везувий",
+    "timezone": "GMT +00:00"
+  }
+]
