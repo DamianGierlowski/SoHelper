@@ -39,8 +39,18 @@ win:
       arch: [x64]
 
 nsis:
-  oneClick: false
-  allowToChangeInstallationDirectory: true
+  # Bez kreatora: klikniecie .exe instaluje po cichu i od razu odpala aplikacje.
+  # Z perspektywy uzytkownika to "uruchomilem exe", a nie "przeszedlem instalacje".
+  # Wybor katalogu jest niedostepny przy oneClick - electron-builder to odrzuca.
+  oneClick: true
+  # Instalacja per uzytkownik do %LOCALAPPDATA%, wiec bez pytania o admina.
+  perMachine: false
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  runAfterFinish: true
+  # Bez slowa "Setup" i bez spacji - to ma wygladac jak plik do uruchomienia,
+  # a przy okazji upraszcza adresy pobierania.
+  artifactName: ${productName}-${version}.${ext}
 
 linux:
   target: [AppImage]

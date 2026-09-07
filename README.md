@@ -26,12 +26,17 @@ Type checking is a separate step: Vite strips types, it does not verify them.
 ## Packaging
 
 ```sh
-make win        # NSIS installer (x64) — the only shipped platform
+make win        # single .exe (x64) — the only shipped platform
 make mac        # .dmg + .zip, local testing only, never published
 make dist       # both
 ```
 
-Builds are unsigned, so Windows shows a SmartScreen warning on install.
+The Windows build is a one-click installer: running it installs to
+`%LOCALAPPDATA%` without a wizard or an admin prompt, then launches the app. It
+is not a portable executable — `electron-updater` needs an installer to replace
+files with, so a portable build could never update itself.
+
+Builds are unsigned, so Windows shows a SmartScreen warning the first time.
 
 ## Releases
 
